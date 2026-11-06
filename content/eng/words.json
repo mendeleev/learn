@@ -1,0 +1,51 @@
+{
+  "id": "eng/words",
+  "subject": "eng",
+  "title": "Слова: переклад",
+  "exercises": [
+    {
+      "id": "match-1",
+      "type": "match",
+      "pairs": [
+        ["cat", "кіт"],
+        ["apple", "яблуко"],
+        ["red", "червоний"],
+        ["school", "школа"],
+        ["sun", "сонце"]
+      ]
+    },
+    {
+      "id": "match-2",
+      "type": "match",
+      "pairs": [
+        ["dog", "собака"],
+        ["book", "книга"],
+        ["green", "зелений"],
+        ["bread", "хліб"],
+        ["tree", "дерево"]
+      ]
+    },
+    {
+      "id": "build-cat",
+      "type": "build",
+      "prompt": "У мене є маленький кіт.",
+      "answer": "I have a small cat",
+      "extra": ["big"]
+    },
+    {
+      "id": "build-can",
+      "type": "build",
+      "prompt": "Я вмію плавати.",
+      "answer": "I can swim",
+      "extra": ["run"]
+    },
+    {
+      "id": "build-there",
+      "type": "build",
+      "prompt": "На столі є книга.",
+      "answer": "There is a book on the table",
+      "extra": ["are"],
+      "hint": "Речення починається словами There is."
+    }
+  ]
+}

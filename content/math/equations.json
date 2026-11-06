@@ -1,0 +1,6 @@
+{
+  "id": "math/equations",
+  "subject": "math",
+  "title": "Прості рівняння",
+  "exercises": [{ "id": "eq-gen", "type": "equations", "kinds": ["add", "sub", "mul", "div"], "max": 20 }]
+}

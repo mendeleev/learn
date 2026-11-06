@@ -1,0 +1,25 @@
+{
+  "id": "math/column",
+  "subject": "math",
+  "title": "Дії в стовпчик",
+  "exercises": [
+    { "id": "add-358-467", "type": "column", "op": "add", "a": 358, "b": 467 },
+    { "id": "add-1275-649", "type": "column", "op": "add", "a": 1275, "b": 649 },
+    { "id": "sub-523-248", "type": "column", "op": "sub", "a": 523, "b": 248 },
+    { "id": "sub-700-356", "type": "column", "op": "sub", "a": 700, "b": 356 },
+    { "id": "mul-247-3", "type": "column", "op": "mul", "a": 247, "b": 3 },
+    { "id": "mul-386-7", "type": "column", "op": "mul", "a": 386, "b": 7 },
+    { "id": "div-156-4", "type": "column", "op": "div", "a": 156, "b": 4 },
+    { "id": "div-738-6", "type": "column", "op": "div", "a": 738, "b": 6 },
+    { "id": "div-412-4", "type": "column", "op": "div", "a": 412, "b": 4 },
+    { "id": "div-157-4", "type": "column", "op": "div", "a": 157, "b": 4 },
+    { "id": "mul-24-13", "type": "column", "op": "mul", "a": 24, "b": 13 },
+    { "id": "mul-35-12", "type": "column", "op": "mul", "a": 35, "b": 12 },
+    { "id": "mul-25-40", "type": "column", "op": "mul", "a": 25, "b": 40 },
+    { "id": "div-96-12", "type": "column", "op": "div", "a": 96, "b": 12 },
+    { "id": "div-384-12", "type": "column", "op": "div", "a": 384, "b": 12 },
+    { "id": "div-728-14", "type": "column", "op": "div", "a": 728, "b": 14 },
+    { "id": "div-400-4", "type": "column", "op": "div", "a": 400, "b": 4 },
+    { "id": "div-408-4", "type": "column", "op": "div", "a": 408, "b": 4 }
+  ]
+}
