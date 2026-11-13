@@ -1,0 +1,88 @@
+{
+  "id": "eng/groups",
+  "subject": "eng",
+  "title": "Слова за групами",
+  "exercises": [
+    {
+      "id": "sort-animal-food",
+      "type": "sort",
+      "label": "Слово",
+      "categories": [
+        { "name": "Тварина", "q": "хто це?" },
+        { "name": "Їжа", "q": "що це?" }
+      ],
+      "items": [
+        ["cat", 0],
+        ["bread", 1],
+        ["horse", 0],
+        ["cheese", 1],
+        ["rabbit", 0],
+        ["soup", 1]
+      ],
+      "explain": {
+        "cat": "cat — кіт, тварина",
+        "bread": "bread — хліб, їжа",
+        "horse": "horse — кінь, тварина",
+        "cheese": "cheese — сир, їжа",
+        "rabbit": "rabbit — кролик, тварина",
+        "soup": "soup — суп, їжа"
+      },
+      "hint": "Згадай переклад слова: це хтось живий чи те, що їдять?"
+    },
+    {
+      "id": "sort-color-number",
+      "type": "sort",
+      "label": "Слово",
+      "categories": [
+        { "name": "Колір", "q": "який?" },
+        { "name": "Число", "q": "скільки?" }
+      ],
+      "items": [
+        ["red", 0],
+        ["three", 1],
+        ["blue", 0],
+        ["seven", 1],
+        ["green", 0],
+        ["ten", 1]
+      ],
+      "hint": "Спитай себе: слово показує колір чи кількість?"
+    },
+    {
+      "id": "sort-family-school",
+      "type": "sort",
+      "label": "Слово",
+      "categories": [
+        { "name": "Сім'я", "q": "хто вдома?" },
+        { "name": "Школа", "q": "що в класі?" }
+      ],
+      "items": [
+        ["mother", 0],
+        ["desk", 1],
+        ["brother", 0],
+        ["pencil", 1],
+        ["grandmother", 0],
+        ["teacher", 1]
+      ],
+      "hint": "Згадай переклад: це рідна людина чи те, що пов'язане зі школою?"
+    },
+    {
+      "id": "sort-verb-noun",
+      "level": 2,
+      "type": "sort",
+      "label": "Слово",
+      "categories": [
+        { "name": "Предмет", "q": "що це?" },
+        { "name": "Дія", "q": "що робити?" }
+      ],
+      "items": [
+        ["book", 0],
+        ["run", 1],
+        ["table", 0],
+        ["jump", 1],
+        ["apple", 0],
+        ["sleep", 1]
+      ],
+      "hint": "Постав питання до перекладу: «що це?» чи «що робити?»."
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "eng/months",
+  "subject": "eng",
+  "title": "Місяці та пори року",
+  "exercises": [
+    {
+      "id": "seasons-sort",
+      "type": "sort",
+      "label": "Місяць",
+      "categories": [
+        {
+          "name": "Winter",
+          "q": "зима"
+        },
+        {
+          "name": "Spring",
+          "q": "весна"
+        },
+        {
+          "name": "Summer",
+          "q": "літо"
+        },
+        {
+          "name": "Autumn",
+          "q": "осінь"
+        }
+      ],
+      "items": [
+        ["December", 0],
+        ["January", 0],
+        ["February", 0],
+        ["March", 1],
+        ["April", 1],
+        ["May", 1],
+        ["June", 2],
+        ["July", 2],
+        ["August", 2],
+        ["September", 3],
+        ["October", 3],
+        ["November", 3]
+      ],
+      "hint": "Згадай, як місяць називається українською, і до якої пори року він належить."
+    },
+    {
+      "id": "match-winter",
+      "type": "match",
+      "pairs": [
+        ["Winter", "зима"],
+        ["December", "грудень"],
+        ["January", "січень"],
+        ["February", "лютий"]
+      ]
+    },
+    {
+      "id": "match-spring",
+      "type": "match",
+      "pairs": [
+        ["Spring", "весна"],
+        ["March", "березень"],
+        ["April", "квітень"],
+        ["May", "травень"]
+      ]
+    },
+    {
+      "id": "match-summer",
+      "type": "match",
+      "pairs": [
+        ["Summer", "літо"],
+        ["June", "червень"],
+        ["July", "липень"],
+        ["August", "серпень"]
+      ]
+    },
+    {
+      "id": "match-autumn",
+      "type": "match",
+      "pairs": [
+        ["Autumn", "осінь"],
+        ["September", "вересень"],
+        ["October", "жовтень"],
+        ["November", "листопад"]
+      ]
+    },
+    {
+      "id": "match-mix-1",
+      "type": "match",
+      "pairs": [
+        ["January", "січень"],
+        ["April", "квітень"],
+        ["July", "липень"],
+        ["October", "жовтень"],
+        ["February", "лютий"],
+        ["August", "серпень"]
+      ]
+    },
+    {
+      "id": "match-mix-2",
+      "type": "match",
+      "pairs": [
+        ["December", "грудень"],
+        ["March", "березень"],
+        ["June", "червень"],
+        ["September", "вересень"],
+        ["May", "травень"],
+        ["November", "листопад"]
+      ]
+    },
+    {
+      "id": "after-march",
+      "type": "choice",
+      "q": "Який місяць іде після March?",
+      "options": ["April", "May", "February", "June"],
+      "answer": 0,
+      "hint": "Згадай, який місяць іде після нього українською, і як він називається англійською."
+    },
+    {
+      "id": "after-june",
+      "type": "choice",
+      "q": "Який місяць іде після June?",
+      "options": ["July", "August", "May", "September"],
+      "answer": 0,
+      "hint": "Згадай, який місяць іде після нього українською, і як він називається англійською."
+    },
+    {
+      "id": "after-september",
+      "type": "choice",
+      "q": "Який місяць іде після September?",
+      "options": ["October", "November", "August", "December"],
+      "answer": 0,
+      "hint": "Згадай, який місяць іде після нього українською, і як він називається англійською."
+    },
+    {
+      "id": "after-december",
+      "type": "choice",
+      "q": "Який місяць іде після December?",
+      "options": ["January", "February", "November", "March"],
+      "answer": 0,
+      "hint": "Згадай, який місяць іде після нього українською, і як він називається англійською."
+    },
+    {
+      "id": "first-month",
+      "type": "choice",
+      "q": "Який місяць — перший у році?",
+      "options": ["January", "December", "June", "March"],
+      "answer": 0,
+      "hint": "Новий рік починається взимку, після грудня."
+    },
+    {
+      "id": "season-july",
+      "type": "choice",
+      "q": "Яка пора року — July?",
+      "options": ["Summer", "Spring", "Autumn", "Winter"],
+      "answer": 0,
+      "hint": "July — це липень."
+    },
+    {
+      "id": "season-october",
+      "type": "choice",
+      "q": "Яка пора року — October?",
+      "options": ["Autumn", "Winter", "Summer", "Spring"],
+      "answer": 0,
+      "hint": "October — це жовтень."
+    },
+    {
+      "id": "season-february",
+      "type": "choice",
+      "q": "Яка пора року — February?",
+      "options": ["Winter", "Spring", "Autumn", "Summer"],
+      "answer": 0,
+      "hint": "February — це лютий."
+    },
+    {
+      "id": "season-april",
+      "type": "choice",
+      "q": "Яка пора року — April?",
+      "options": ["Spring", "Summer", "Winter", "Autumn"],
+      "answer": 0,
+      "hint": "April — це квітень."
+    },
+    {
+      "id": "spelling-february",
+      "type": "choice",
+      "q": "Як правильно пишеться «лютий»?",
+      "options": ["February", "Febuary", "Februery", "Februari"],
+      "answer": 0,
+      "hint": "Читається [Фе'брюері]: після Feb іде ru."
+    },
+    {
+      "id": "spelling-august",
+      "type": "choice",
+      "q": "Як правильно пишеться «серпень»?",
+      "options": ["August", "Augest", "Agust", "Augast"],
+      "answer": 0,
+      "hint": "Починається з Au, як у слові autumn."
+    },
+    {
+      "id": "spelling-autumn",
+      "type": "choice",
+      "q": "Як правильно пишеться «осінь»?",
+      "options": ["Autumn", "Autum", "Otumn", "Autamn"],
+      "answer": 0,
+      "hint": "У кінці слова є німа літера n."
+    },
+    {
+      "id": "build-birthday",
+      "type": "build",
+      "prompt": "Мій день народження в травні.",
+      "answer": "My birthday is in May",
+      "extra": ["on"],
+      "hint": "Перед назвою місяця ставимо in."
+    },
+    {
+      "id": "build-summer",
+      "type": "build",
+      "prompt": "Влітку тепло.",
+      "answer": "It is warm in summer",
+      "extra": ["on"]
+    }
+  ]
+}

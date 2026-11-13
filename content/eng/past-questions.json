@@ -1,0 +1,202 @@
+{
+  "id": "eng/past-questions",
+  "subject": "eng",
+  "title": "Питання в минулому: Did, Was, Were",
+  "exercises": [
+    {
+      "id": "q1",
+      "type": "choice",
+      "q": "Встав слово",
+      "text": "___ you at the wedding?",
+      "options": ["Were", "Did", "Was", "Are"],
+      "answer": 0,
+      "hint": "Дієслова-дії немає — отже, was або were. Подивись на займенник: you, we, they — were."
+    },
+    {
+      "id": "q2",
+      "type": "choice",
+      "q": "Встав слово",
+      "text": "___ she at the beach?",
+      "options": ["Was", "Did", "Were", "Is"],
+      "answer": 0,
+      "hint": "Дієслова-дії немає — отже, was або were. Подивись на займенник: I, he, she, it — was."
+    },
+    {
+      "id": "q3",
+      "type": "choice",
+      "q": "Встав слово",
+      "text": "___ they meet the bride?",
+      "options": ["Did", "Was", "Were", "Do"],
+      "answer": 0,
+      "hint": "Чи є в питанні дієслово-дія (go, see, buy…)? Якщо є — питаємо з Did."
+    },
+    {
+      "id": "q4",
+      "type": "choice",
+      "q": "Встав слово",
+      "text": "___ he buy a suit?",
+      "options": ["Did", "Was", "Were", "Do"],
+      "answer": 0,
+      "hint": "Чи є в питанні дієслово-дія (go, see, buy…)? Якщо є — питаємо з Did."
+    },
+    {
+      "id": "q5",
+      "type": "choice",
+      "q": "Встав слово",
+      "text": "___ it cold in January?",
+      "options": ["Was", "Did", "Were", "Is"],
+      "answer": 0,
+      "hint": "Дієслова-дії немає — отже, was або were. Подивись на займенник: I, he, she, it — was."
+    },
+    {
+      "id": "q6",
+      "type": "choice",
+      "q": "Встав слово",
+      "text": "___ we late?",
+      "options": ["Were", "Did", "Was", "Are"],
+      "answer": 0,
+      "hint": "Дієслова-дії немає — отже, was або were. Подивись на займенник: you, we, they — were."
+    },
+    {
+      "id": "q7",
+      "type": "choice",
+      "q": "Встав слово",
+      "text": "___ you reach the peak?",
+      "options": ["Did", "Was", "Were", "Do"],
+      "answer": 0,
+      "hint": "Чи є в питанні дієслово-дія (go, see, buy…)? Якщо є — питаємо з Did."
+    },
+    {
+      "id": "q8",
+      "type": "choice",
+      "q": "Встав слово",
+      "text": "___ I in the garden?",
+      "options": ["Was", "Did", "Were", "Is"],
+      "answer": 0,
+      "hint": "Дієслова-дії немає — отже, was або were. Подивись на займенник: I, he, she, it — was."
+    },
+    {
+      "id": "q9",
+      "type": "choice",
+      "q": "Встав слово",
+      "text": "___ they proud?",
+      "options": ["Were", "Did", "Was", "Are"],
+      "answer": 0,
+      "hint": "Дієслова-дії немає — отже, was або were. Подивись на займенник: you, we, they — were."
+    },
+    {
+      "id": "q10",
+      "type": "choice",
+      "q": "Встав слово",
+      "text": "___ she forget the candles?",
+      "options": ["Did", "Was", "Were", "Do"],
+      "answer": 0,
+      "hint": "Чи є в питанні дієслово-дія (go, see, buy…)? Якщо є — питаємо з Did."
+    },
+    {
+      "id": "q11",
+      "type": "choice",
+      "q": "Встав слово",
+      "text": "___ your uncle at the wedding?",
+      "options": ["Was", "Did", "Were", "Is"],
+      "answer": 0,
+      "hint": "Дієслова-дії немає. Uncle — це він (he), тож was або were?"
+    },
+    {
+      "id": "q12",
+      "type": "choice",
+      "q": "Встав слово",
+      "text": "___ your cousins at the beach?",
+      "options": ["Were", "Did", "Was", "Are"],
+      "answer": 0,
+      "hint": "Дієслова-дії немає. Cousins — їх багато (they), тож was або were?"
+    },
+    {
+      "id": "q13",
+      "type": "choice",
+      "q": "Встав слово",
+      "text": "___ you sit next to the groom?",
+      "options": ["Did", "Was", "Were", "Do"],
+      "answer": 0,
+      "hint": "Чи є в питанні дієслово-дія (go, see, buy…)? Якщо є — питаємо з Did."
+    },
+    {
+      "id": "q14",
+      "type": "choice",
+      "q": "Встав слово",
+      "text": "___ he happy?",
+      "options": ["Was", "Did", "Were", "Is"],
+      "answer": 0,
+      "hint": "Дієслова-дії немає — отже, was або were. Подивись на займенник: I, he, she, it — was."
+    },
+    {
+      "id": "after-did",
+      "type": "choice",
+      "q": "Обери правильне питання",
+      "options": ["Did you buy a tie?", "Did you bought a tie?", "Were you buy a tie?", "Was you buy a tie?"],
+      "answer": 0,
+      "hint": "Після Did дієслово стоїть у звичайній формі, без минулого часу."
+    },
+    {
+      "id": "after-did-2",
+      "type": "choice",
+      "q": "Обери правильне питання",
+      "options": [
+        "Did she meet the guests?",
+        "Did she met the guests?",
+        "Was she meet the guests?",
+        "Did she meets the guests?"
+      ],
+      "answer": 0,
+      "hint": "Після Did дієслово стоїть у звичайній формі: meet, а не met."
+    },
+    {
+      "id": "build-were",
+      "type": "build",
+      "prompt": "Ти був на весіллі?",
+      "answer": "Were you at the wedding?",
+      "extra": ["Did"],
+      "hint": "У питанні немає дієслова-дії, а займенник you."
+    },
+    {
+      "id": "build-was",
+      "type": "build",
+      "prompt": "Вона була на пляжі?",
+      "answer": "Was she at the beach?",
+      "extra": ["Were"],
+      "hint": "У питанні немає дієслова-дії, а займенник she."
+    },
+    {
+      "id": "build-did-buy",
+      "type": "build",
+      "prompt": "Він купив костюм?",
+      "answer": "Did he buy a suit?",
+      "extra": ["bought"],
+      "hint": "Є дія «купив» — питання починається з Did, а дієслово після нього у звичайній формі."
+    },
+    {
+      "id": "build-did-meet",
+      "type": "build",
+      "prompt": "Вони зустріли наречену?",
+      "answer": "Did they meet the bride?",
+      "extra": ["met"],
+      "hint": "Є дія «зустріли» — питання починається з Did."
+    },
+    {
+      "id": "build-were-proud",
+      "type": "build",
+      "prompt": "Ви були горді?",
+      "answer": "Were you proud?",
+      "extra": ["Was"],
+      "hint": "Дієслова-дії немає, займенник you."
+    },
+    {
+      "id": "build-did-reach",
+      "type": "build",
+      "prompt": "Ми дійшли до вершини?",
+      "answer": "Did we reach the peak?",
+      "extra": ["Were"],
+      "hint": "Є дія «дійшли» (reach) — питання починається з Did."
+    }
+  ]
+}

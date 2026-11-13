@@ -1,0 +1,223 @@
+{
+  "id": "eng/unit2-words",
+  "subject": "eng",
+  "title": "Unit 2: нові слова",
+  "exercises": [
+    {
+      "id": "wedding-1",
+      "type": "match",
+      "pairs": [
+        ["wedding", "весілля"],
+        ["bride", "наречена"],
+        ["groom", "наречений"],
+        ["guest", "гість"],
+        ["suit", "костюм"],
+        ["tie", "краватка"]
+      ]
+    },
+    {
+      "id": "family-1",
+      "type": "match",
+      "pairs": [
+        ["grandfather", "дідусь"],
+        ["grandmother", "бабуся"],
+        ["grandson", "онук"],
+        ["granddaughter", "онучка"],
+        ["cousin", "двоюрідний брат"]
+      ]
+    },
+    {
+      "id": "family-2",
+      "type": "match",
+      "pairs": [
+        ["aunt", "тітка"],
+        ["uncle", "дядько"],
+        ["grandparents", "бабуся та дідусь"],
+        ["married", "одружений"],
+        ["cousin", "двоюрідна сестра"]
+      ]
+    },
+    {
+      "id": "words-2-2",
+      "type": "match",
+      "pairs": [
+        ["candle", "свічка"],
+        ["hit", "бити"],
+        ["break", "ламати"],
+        ["garden", "сад"],
+        ["guest", "гість"]
+      ]
+    },
+    {
+      "id": "words-2-5-1",
+      "type": "match",
+      "pairs": [
+        ["memory", "спогад"],
+        ["beach", "пляж"],
+        ["high", "високий"],
+        ["peak", "вершина"],
+        ["reach", "досягати"],
+        ["proud", "гордий"]
+      ]
+    },
+    {
+      "id": "words-2-5-2",
+      "type": "match",
+      "pairs": [
+        ["look for", "шукати"],
+        ["beach", "пляж"],
+        ["proud", "гордий"],
+        ["memory", "спогад"],
+        ["wedding", "весілля"]
+      ]
+    },
+    {
+      "id": "past-forms-1",
+      "type": "match",
+      "title": "З'єднай дієслово з його минулою формою",
+      "pairs": [
+        ["can", "could"],
+        ["sit", "sat"],
+        ["leave", "left"],
+        ["forget", "forgot"]
+      ]
+    },
+    {
+      "id": "past-forms-2",
+      "type": "match",
+      "title": "З'єднай дієслово з його минулою формою",
+      "pairs": [
+        ["buy", "bought"],
+        ["meet", "met"],
+        ["know", "knew"],
+        ["sit", "sat"]
+      ]
+    },
+    {
+      "id": "past-meaning-1",
+      "type": "match",
+      "title": "З'єднай минулу форму з перекладом",
+      "pairs": [
+        ["could", "міг"],
+        ["sat", "сидів"],
+        ["left", "пішов, покинув"],
+        ["forgot", "забув"]
+      ]
+    },
+    {
+      "id": "past-meaning-2",
+      "type": "match",
+      "title": "З'єднай минулу форму з перекладом",
+      "pairs": [
+        ["bought", "купив"],
+        ["met", "зустрів"],
+        ["knew", "знав"],
+        ["could", "міг"]
+      ]
+    },
+    {
+      "id": "bride",
+      "type": "choice",
+      "q": "Як англійською «наречена»?",
+      "options": ["bride", "groom", "guest", "aunt"],
+      "answer": 0,
+      "hint": "Наречена й наречений — пара слів. Наречена починається на b."
+    },
+    {
+      "id": "groom",
+      "type": "choice",
+      "q": "Як англійською «наречений»?",
+      "options": ["groom", "bride", "uncle", "guest"],
+      "answer": 0,
+      "hint": "Наречений — на g, як у слові «гарний»."
+    },
+    {
+      "id": "aunt",
+      "type": "choice",
+      "q": "Як англійською «тітка»?",
+      "options": ["aunt", "uncle", "cousin", "grandmother"],
+      "answer": 0,
+      "hint": "Тітка — жінка. Дядько — uncle."
+    },
+    {
+      "id": "granddaughter",
+      "type": "choice",
+      "q": "Як англійською «онучка»?",
+      "options": ["granddaughter", "grandson", "grandmother", "cousin"],
+      "answer": 0,
+      "hint": "daughter — донька, son — син. Онучка — дівчинка."
+    },
+    {
+      "id": "cousin",
+      "type": "choice",
+      "q": "Що означає cousin?",
+      "options": ["двоюрідний брат або сестра", "дядько", "онук", "тітка"],
+      "answer": 0,
+      "hint": "Це дитина твоєї тітки чи дядька."
+    },
+    {
+      "id": "guest",
+      "type": "choice",
+      "q": "Що означає guest?",
+      "options": ["гість", "наречений", "костюм", "свічка"],
+      "answer": 0,
+      "hint": "Його запрошують на весілля чи свято."
+    },
+    {
+      "id": "peak",
+      "type": "choice",
+      "q": "Що означає peak?",
+      "options": ["вершина", "пляж", "спогад", "сад"],
+      "answer": 0,
+      "hint": "Те, до чого піднімаються в горах."
+    },
+    {
+      "id": "reach",
+      "type": "choice",
+      "q": "Що означає reach?",
+      "options": ["досягати", "шукати", "зустрічати", "забувати"],
+      "answer": 0,
+      "hint": "We reached the peak — ми дійшли до вершини."
+    },
+    {
+      "id": "past-buy",
+      "type": "choice",
+      "q": "Яка минула форма дієслова buy?",
+      "options": ["bought", "buyed", "brought", "buys"],
+      "answer": 0,
+      "hint": "buy — неправильне дієслово, закінчення -ed тут не додають. Минула форма звучить [bɔːt]."
+    },
+    {
+      "id": "past-know",
+      "type": "choice",
+      "q": "Яка минула форма дієслова know?",
+      "options": ["knew", "knowed", "know", "knowned"],
+      "answer": 0,
+      "hint": "know — неправильне дієслово. Минула форма звучить [njuː]."
+    },
+    {
+      "id": "past-forget",
+      "type": "choice",
+      "q": "Яка минула форма дієслова forget?",
+      "options": ["forgot", "forgetted", "forget", "forgets"],
+      "answer": 0,
+      "hint": "У минулій формі e змінюється на o."
+    },
+    {
+      "id": "past-leave",
+      "type": "choice",
+      "q": "Яка минула форма дієслова leave?",
+      "options": ["left", "leaved", "leaf", "lefted"],
+      "answer": 0,
+      "hint": "leave — неправильне дієслово. Минула форма коротка, як слово «лівий» англійською."
+    },
+    {
+      "id": "past-could",
+      "type": "choice",
+      "q": "Яке слово — минула форма від can?",
+      "options": ["could", "canned", "can", "cans"],
+      "answer": 0,
+      "hint": "Минула форма від can звучить [kʊd]."
+    }
+  ]
+}

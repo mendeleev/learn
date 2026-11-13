@@ -1,0 +1,13 @@
+{
+  "id": "math/mul-table",
+  "subject": "math",
+  "title": "Таблиця множення",
+  "levels": ["×2 і ×10", "×5 і ×3", "×4 і ×9", "×6", "×7 і ×8"],
+  "exercises": [
+    { "id": "m1", "level": 1, "type": "mul-facts", "a": [2, 10], "b": [2, 3, 4, 5, 6, 7, 8, 9, 10], "both": true },
+    { "id": "m2", "level": 2, "type": "mul-facts", "a": [3, 5], "b": [3, 4, 5, 6, 7, 8, 9], "both": true },
+    { "id": "m3", "level": 3, "type": "mul-facts", "a": [4, 9], "b": [4, 6, 7, 8, 9], "both": true },
+    { "id": "m4", "level": 4, "type": "mul-facts", "a": [6], "b": [6, 7, 8], "both": true },
+    { "id": "m5", "level": 5, "type": "mul-facts", "a": [7, 8], "b": [7, 8], "both": true }
+  ]
+}

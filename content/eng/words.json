@@ -1,0 +1,125 @@
+{
+  "id": "eng/words",
+  "subject": "eng",
+  "title": "Слова: переклад",
+  "exercises": [
+    {
+      "id": "match-1",
+      "type": "match",
+      "pairs": [
+        ["cat", "кіт"],
+        ["apple", "яблуко"],
+        ["red", "червоний"],
+        ["school", "школа"],
+        ["sun", "сонце"]
+      ]
+    },
+    {
+      "id": "match-2",
+      "type": "match",
+      "pairs": [
+        ["dog", "собака"],
+        ["book", "книга"],
+        ["green", "зелений"],
+        ["bread", "хліб"],
+        ["tree", "дерево"]
+      ]
+    },
+    {
+      "id": "match-3",
+      "type": "match",
+      "title": "Сім'я",
+      "pairs": [
+        ["mother", "мама"],
+        ["father", "тато"],
+        ["sister", "сестра"],
+        ["brother", "брат"],
+        ["grandmother", "бабуся"]
+      ]
+    },
+    {
+      "id": "match-4",
+      "type": "match",
+      "title": "Тварини",
+      "pairs": [
+        ["horse", "кінь"],
+        ["rabbit", "кролик"],
+        ["bird", "птах"],
+        ["fish", "риба"],
+        ["mouse", "миша"]
+      ]
+    },
+    {
+      "id": "match-5",
+      "type": "match",
+      "title": "Їжа",
+      "pairs": [
+        ["milk", "молоко"],
+        ["cheese", "сир"],
+        ["egg", "яйце"],
+        ["soup", "суп"],
+        ["water", "вода"]
+      ]
+    },
+    {
+      "id": "match-6",
+      "type": "match",
+      "title": "Кольори",
+      "pairs": [
+        ["blue", "синій"],
+        ["yellow", "жовтий"],
+        ["black", "чорний"],
+        ["white", "білий"],
+        ["orange", "помаранчевий"]
+      ]
+    },
+    {
+      "id": "match-7",
+      "type": "match",
+      "title": "У школі",
+      "pairs": [
+        ["pen", "ручка"],
+        ["pencil", "олівець"],
+        ["desk", "парта"],
+        ["teacher", "вчитель"],
+        ["bag", "рюкзак"]
+      ]
+    },
+    {
+      "id": "match-8",
+      "type": "match",
+      "title": "Тіло",
+      "pairs": [
+        ["head", "голова"],
+        ["hand", "рука"],
+        ["leg", "нога"],
+        ["eye", "око"],
+        ["nose", "ніс"]
+      ]
+    },
+    {
+      "id": "match-9",
+      "type": "match",
+      "title": "Дії",
+      "pairs": [
+        ["run", "бігти"],
+        ["jump", "стрибати"],
+        ["read", "читати"],
+        ["sleep", "спати"],
+        ["eat", "їсти"]
+      ]
+    },
+    {
+      "id": "match-10",
+      "type": "match",
+      "title": "Числа",
+      "pairs": [
+        ["three", "три"],
+        ["five", "п'ять"],
+        ["seven", "сім"],
+        ["nine", "дев'ять"],
+        ["ten", "десять"]
+      ]
+    }
+  ]
+}
