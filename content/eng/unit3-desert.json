@@ -1,0 +1,279 @@
+{
+  "id": "eng/unit3-desert",
+  "subject": "eng",
+  "title": "Unit 3.1: слова",
+  "set": "Unit 3",
+  "levels": ["desert – dry", "empty – plant", "Усі слова разом"],
+  "exercises": [
+    {
+      "id": "desert-match-1",
+      "level": 1,
+      "type": "match",
+      "title": "Нові слова: desert – dry",
+      "pairs": [
+        ["desert", "пустеля"],
+        ["different", "різний"],
+        ["sandy", "піщаний"],
+        ["rocky", "кам'янистий"],
+        ["icy", "крижаний"],
+        ["dry", "сухий"]
+      ]
+    },
+    {
+      "id": "desert",
+      "level": 1,
+      "type": "choice",
+      "q": "Що означає desert?",
+      "options": ["пустеля", "земля", "рослина", "кора"],
+      "answer": 0,
+      "hint": "Там дуже сухо й майже не буває дощу."
+    },
+    {
+      "id": "desert-to-en",
+      "level": 1,
+      "type": "choice",
+      "q": "Як англійською «пустеля»?",
+      "options": ["desert", "different", "dry", "land"],
+      "answer": 0,
+      "hint": "Там дуже сухо, навколо пісок або каміння й майже немає дощу."
+    },
+    {
+      "id": "different",
+      "level": 1,
+      "type": "choice",
+      "q": "Як англійською «різний»?",
+      "options": ["different", "empty", "dry", "sandy"],
+      "answer": 0,
+      "hint": "Deserts can look very ... — пустелі зовсім не схожі одна на одну."
+    },
+    {
+      "id": "different-to-ua",
+      "level": 1,
+      "type": "choice",
+      "q": "Що означає different?",
+      "options": ["різний", "порожній", "сухий", "піщаний"],
+      "answer": 0,
+      "hint": "Різні пустелі не схожі одна на одну."
+    },
+    {
+      "id": "sandy",
+      "level": 1,
+      "type": "choice",
+      "q": "Як англійською «піщаний»?",
+      "options": ["sandy", "rocky", "icy", "dry"],
+      "answer": 0,
+      "hint": "sand — пісок. Додай -y, і вийде «який?»."
+    },
+    {
+      "id": "sandy-to-ua",
+      "level": 1,
+      "type": "choice",
+      "q": "Що означає sandy?",
+      "options": ["піщаний", "кам'янистий", "крижаний", "сухий"],
+      "answer": 0,
+      "hint": "Сховай -y: sand — пісок."
+    },
+    {
+      "id": "rocky",
+      "level": 1,
+      "type": "choice",
+      "q": "Що означає rocky?",
+      "options": ["кам'янистий", "піщаний", "крижаний", "порожній"],
+      "answer": 0,
+      "hint": "rock — камінь, скеля."
+    },
+    {
+      "id": "rocky-to-en",
+      "level": 1,
+      "type": "choice",
+      "q": "Як англійською «кам'янистий»?",
+      "options": ["rocky", "sandy", "icy", "empty"],
+      "answer": 0,
+      "hint": "rock — камінь. Додай -y."
+    },
+    {
+      "id": "icy",
+      "level": 1,
+      "type": "choice",
+      "q": "Що означає icy?",
+      "options": ["крижаний", "сухий", "кам'янистий", "різний"],
+      "answer": 0,
+      "hint": "ice — лід. Найбільша пустеля світу, Антарктида, саме така."
+    },
+    {
+      "id": "icy-to-en",
+      "level": 1,
+      "type": "choice",
+      "q": "Як англійською «крижаний»?",
+      "options": ["icy", "dry", "rocky", "sandy"],
+      "answer": 0,
+      "hint": "ice — лід. Прибери -e і додай -y."
+    },
+    {
+      "id": "dry",
+      "level": 1,
+      "type": "choice",
+      "q": "Як англійською «сухий»?",
+      "options": ["dry", "icy", "empty", "land"],
+      "answer": 0,
+      "hint": "Такі всі пустелі: дощу там дуже мало."
+    },
+    {
+      "id": "dry-to-ua",
+      "level": 1,
+      "type": "choice",
+      "q": "Що означає dry?",
+      "options": ["сухий", "крижаний", "порожній", "різний"],
+      "answer": 0,
+      "hint": "All deserts are dry — такі всі пустелі, бо там мало дощу."
+    },
+    {
+      "id": "desert-match-2",
+      "level": 2,
+      "type": "match",
+      "title": "Нові слова: empty – plant",
+      "pairs": [
+        ["empty", "порожній"],
+        ["bark", "кора"],
+        ["land", "земля, суходіл"],
+        ["Earth", "Земля (планета)"],
+        ["to store", "зберігати, накопичувати"],
+        ["plant", "рослина"]
+      ]
+    },
+    {
+      "id": "empty",
+      "level": 2,
+      "type": "choice",
+      "q": "Що означає empty?",
+      "options": ["порожній", "різний", "сухий", "піщаний"],
+      "answer": 0,
+      "hint": "Так кажуть про пляшку, в якій нічого немає."
+    },
+    {
+      "id": "empty-to-en",
+      "level": 2,
+      "type": "choice",
+      "q": "Як англійською «порожній»?",
+      "options": ["empty", "dry", "icy", "different"],
+      "answer": 0,
+      "hint": "Дехто думає, що пустелі такі: ... and dead."
+    },
+    {
+      "id": "bark",
+      "level": 2,
+      "type": "choice",
+      "q": "Як англійською «кора» дерева?",
+      "options": ["bark", "plant", "land", "store"],
+      "answer": 0,
+      "hint": "Саксаул зберігає в ній воду."
+    },
+    {
+      "id": "bark-to-ua",
+      "level": 2,
+      "type": "choice",
+      "q": "Що означає bark?",
+      "options": ["кора", "рослина", "земля, суходіл", "пустеля"],
+      "answer": 0,
+      "hint": "The saxaul stores water in its bark — де саксаул тримає воду?"
+    },
+    {
+      "id": "land",
+      "level": 2,
+      "type": "choice",
+      "q": "Що означає land?",
+      "options": ["земля, суходіл", "Земля (планета)", "пустеля", "рослина"],
+      "answer": 0,
+      "hint": "Це не назва планети, а земля під ногами, де ростуть рослини й будують ферми."
+    },
+    {
+      "id": "land-to-en",
+      "level": 2,
+      "type": "choice",
+      "q": "Як англійською «суходіл, земля під ногами»?",
+      "options": ["land", "Earth", "bark", "plant"],
+      "answer": 0,
+      "hint": "Це не планета, а земля під ногами, де ростуть рослини."
+    },
+    {
+      "id": "earth",
+      "level": 2,
+      "type": "choice",
+      "q": "Як англійською «Земля» — наша планета?",
+      "options": ["Earth", "land", "desert", "plant"],
+      "answer": 0,
+      "hint": "land — це земля під ногами. А як назвати всю планету?"
+    },
+    {
+      "id": "earth-to-ua",
+      "level": 2,
+      "type": "choice",
+      "q": "Що означає Earth?",
+      "options": ["Земля (планета)", "земля, суходіл", "пустеля", "кора"],
+      "answer": 0,
+      "hint": "Так називається те, що обертається навколо Сонця."
+    },
+    {
+      "id": "store",
+      "level": 2,
+      "type": "choice",
+      "q": "Що означає to store?",
+      "options": ["зберігати, накопичувати", "рости", "шукати", "залишати"],
+      "answer": 0,
+      "hint": "Кактус і саксаул так роблять із водою, щоб вижити в пустелі."
+    },
+    {
+      "id": "store-to-en",
+      "level": 2,
+      "type": "choice",
+      "q": "Як англійською «зберігати, накопичувати»?",
+      "options": ["to store", "to grow", "to find", "to leave"],
+      "answer": 0,
+      "hint": "Саксаул ... water in its bark."
+    },
+    {
+      "id": "plant",
+      "level": 2,
+      "type": "choice",
+      "q": "Як англійською «рослина»?",
+      "options": ["plant", "land", "bark", "desert"],
+      "answer": 0,
+      "hint": "Кактус — це ..."
+    },
+    {
+      "id": "plant-to-ua",
+      "level": 2,
+      "type": "choice",
+      "q": "Що означає plant?",
+      "options": ["рослина", "кора", "пустеля", "земля, суходіл"],
+      "answer": 0,
+      "hint": "Cactus plants — кактус саме такий."
+    },
+    {
+      "id": "desert-match-3",
+      "level": 3,
+      "type": "match",
+      "pairs": [
+        ["dry", "сухий"],
+        ["empty", "порожній"],
+        ["plant", "рослина"],
+        ["sandy", "піщаний"],
+        ["bark", "кора"],
+        ["different", "різний"]
+      ]
+    },
+    {
+      "id": "desert-match-4",
+      "level": 3,
+      "type": "match",
+      "pairs": [
+        ["desert", "пустеля"],
+        ["land", "земля, суходіл"],
+        ["Earth", "Земля (планета)"],
+        ["icy", "крижаний"],
+        ["rocky", "кам'янистий"],
+        ["to store", "зберігати, накопичувати"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "eng/unit3-desert4-build",
+  "subject": "eng",
+  "title": "Unit 3.1: складаю речення",
+  "set": "Unit 3",
+  "exercises": [
+    {
+      "id": "build-dry",
+      "type": "build",
+      "prompt": "Усі пустелі сухі.",
+      "answer": "All deserts are dry",
+      "extra": ["empty"]
+    },
+    {
+      "id": "build-sandy",
+      "type": "build",
+      "prompt": "Деякі пустелі піщані.",
+      "answer": "Some deserts are sandy",
+      "extra": ["rocky"]
+    },
+    {
+      "id": "build-rocky",
+      "type": "build",
+      "prompt": "Інші пустелі кам'янисті.",
+      "answer": "Other deserts are rocky",
+      "extra": ["sandy"],
+      "hint": "Other — інші. Далі — хто? які?"
+    },
+    {
+      "id": "build-different",
+      "type": "build",
+      "prompt": "Пустелі можуть виглядати дуже по-різному.",
+      "answer": "Deserts can look very different",
+      "extra": ["dry"],
+      "hint": "Порядок як в українському: хто? → можуть виглядати → як?"
+    },
+    {
+      "id": "build-icy",
+      "type": "build",
+      "prompt": "Антарктида — крижана пустеля.",
+      "answer": "Antarctica is an icy desert",
+      "extra": ["sandy", "are"],
+      "hint": "Спершу назва континенту, потім is an."
+    },
+    {
+      "id": "build-empty",
+      "type": "build",
+      "prompt": "Пустеля не порожня.",
+      "answer": "The desert is not empty",
+      "extra": ["dry"]
+    },
+    {
+      "id": "build-plants",
+      "type": "build",
+      "prompt": "Рослини зберігають воду.",
+      "answer": "Plants store water",
+      "extra": ["bark"]
+    },
+    {
+      "id": "build-bark",
+      "type": "build",
+      "prompt": "Саксаул зберігає воду в корі.",
+      "answer": "The saxaul stores water in its bark",
+      "extra": ["land"],
+      "hint": "Хто? → що робить? → що? → де? Саме в такому порядку."
+    },
+    {
+      "id": "build-land",
+      "type": "build",
+      "prompt": "Третина суходолу Землі — пустеля.",
+      "answer": "A third of the Earth's land is desert",
+      "extra": ["plant"],
+      "hint": "Спершу — яка частина суходолу Землі, наприкінці — is desert. Earth's означає «Землі»."
+    }
+  ]
+}

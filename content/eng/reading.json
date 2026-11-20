@@ -1,0 +1,55 @@
+{
+  "id": "eng/reading",
+  "subject": "eng",
+  "title": "Читаємо речення",
+  "exercises": [
+    {
+      "id": "find-cat",
+      "type": "pick",
+      "q": "Знайди слово «кіт»",
+      "text": "The cat is on the sofa.",
+      "answer": ["cat"],
+      "hint": "Згадай, як англійською кіт: ця тварина любить молоко."
+    },
+    {
+      "id": "find-red",
+      "type": "pick",
+      "q": "Знайди слово «червоний»",
+      "text": "I have a red bag.",
+      "answer": ["red"],
+      "hint": "Шукай слово, що називає колір."
+    },
+    {
+      "id": "find-school",
+      "type": "pick",
+      "q": "Знайди слово «школа»",
+      "text": "We go to school every day.",
+      "answer": ["school"],
+      "hint": "Куди діти ходять вчитися?"
+    },
+    {
+      "id": "find-milk",
+      "type": "pick",
+      "q": "Знайди слово «молоко»",
+      "text": "My sister likes milk.",
+      "answer": ["milk"],
+      "hint": "Шукай слово, яке називає напій."
+    },
+    {
+      "id": "find-action",
+      "type": "pick",
+      "q": "Знайди слово «бігти»",
+      "text": "The dog can run fast.",
+      "answer": ["run"],
+      "hint": "Шукай слово, що називає дію."
+    },
+    {
+      "id": "find-two",
+      "type": "pick",
+      "q": "Знайди два слова: «яблуко» і «хліб»",
+      "text": "I eat an apple and bread.",
+      "answer": ["apple", "bread"],
+      "hint": "Обидва слова називають їжу."
+    }
+  ]
+}

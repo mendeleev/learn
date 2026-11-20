@@ -1,0 +1,520 @@
+{
+  "id": "eng/superlative",
+  "subject": "eng",
+  "title": "Comparison 2: superlative (the -est, the most)",
+  "set": "Comparison",
+  "levels": ["Як додати -est", "-est чи the most", "Найкращий з усіх"],
+  "exercises": [
+    {
+      "id": "est-rules-1",
+      "level": 1,
+      "type": "sort",
+      "label": "Слово",
+      "categories": [
+        {
+          "name": "+ est",
+          "q": "як fast → the fastest"
+        },
+        {
+          "name": "+ st",
+          "q": "як nice → the nicest"
+        },
+        {
+          "name": "y → i + est",
+          "q": "як happy → the happiest"
+        },
+        {
+          "name": "подвоїти + est",
+          "q": "як big → the biggest"
+        }
+      ],
+      "items": [
+        ["tall", 0],
+        ["long", 0],
+        ["large", 1],
+        ["wide", 1],
+        ["heavy", 2],
+        ["funny", 2],
+        ["hot", 3],
+        ["sad", 3]
+      ],
+      "explain": {
+        "tall": "tall → the tallest (просто + est).",
+        "long": "long → the longest (просто + est).",
+        "large": "large → the largest (вже є e, + st).",
+        "wide": "wide → the widest (вже є e, + st).",
+        "heavy": "heavy → the heaviest (y → i).",
+        "funny": "funny → the funniest (y → i).",
+        "hot": "hot → the hottest (подвоюємо t).",
+        "sad": "sad → the saddest (подвоюємо d)."
+      },
+      "hint": "Порівняй кінець слова з прикладами на кнопках. Закінчується на e чи на y? Якщо ні — подивись на дві останні літери: голосна + приголосна, як i-g у big?"
+    },
+    {
+      "id": "est-rules-2",
+      "level": 1,
+      "type": "sort",
+      "label": "Слово",
+      "categories": [
+        {
+          "name": "+ est",
+          "q": "як fast → the fastest"
+        },
+        {
+          "name": "+ st",
+          "q": "як nice → the nicest"
+        },
+        {
+          "name": "y → i + est",
+          "q": "як happy → the happiest"
+        },
+        {
+          "name": "подвоїти + est",
+          "q": "як big → the biggest"
+        }
+      ],
+      "items": [
+        ["small", 0],
+        ["cold", 0],
+        ["safe", 1],
+        ["cute", 1],
+        ["easy", 2],
+        ["busy", 2],
+        ["thin", 3],
+        ["wet", 3]
+      ],
+      "explain": {
+        "small": "small → the smallest (просто + est).",
+        "cold": "cold → the coldest (просто + est).",
+        "safe": "safe → the safest (вже є e, + st).",
+        "cute": "cute → the cutest (вже є e, + st).",
+        "easy": "easy → the easiest (y → i).",
+        "busy": "busy → the busiest (y → i).",
+        "thin": "thin → the thinnest (подвоюємо n).",
+        "wet": "wet → the wettest (подвоюємо t)."
+      },
+      "hint": "Порівняй кінець слова з прикладами на кнопках. Закінчується на e чи на y? Якщо ні — подивись на дві останні літери: голосна + приголосна, як i-g у big?"
+    },
+    {
+      "id": "j-big",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "big → найбільший",
+      "answer": "big g est",
+      "extra": ["st"],
+      "hint": "Подивись на дві останні літери: голосна + приголосна, як i-g у big? Що тоді робимо з останньою літерою?"
+    },
+    {
+      "id": "j-hot",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "hot → найгарячіший",
+      "answer": "hot t est",
+      "extra": ["st"],
+      "hint": "Подивись на дві останні літери: голосна + приголосна, як i-g у big? Що тоді робимо з останньою літерою?"
+    },
+    {
+      "id": "j-thin",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "thin → найтонший",
+      "answer": "thin n est",
+      "extra": ["st"],
+      "hint": "Подивись на дві останні літери: голосна + приголосна, як i-g у big? Що тоді робимо з останньою літерою?"
+    },
+    {
+      "id": "j-wet",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "wet → наймокріший",
+      "answer": "wet t est",
+      "extra": ["st"],
+      "hint": "Подивись на дві останні літери: голосна + приголосна, як i-g у big? Що тоді робимо з останньою літерою?"
+    },
+    {
+      "id": "j-large",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "large → найбільший (за розміром)",
+      "answer": "large st",
+      "extra": ["est"],
+      "hint": "Слово вже закінчується на e. Скільки букв ще треба додати?"
+    },
+    {
+      "id": "j-nice",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "nice → найгарніший",
+      "answer": "nice st",
+      "extra": ["est"],
+      "hint": "Слово вже закінчується на e. Скільки букв ще треба додати?"
+    },
+    {
+      "id": "j-happy",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "happy → найщасливіший",
+      "answer": "happ i est",
+      "extra": ["y"],
+      "hint": "Слово закінчується на y. На яку букву її міняємо?"
+    },
+    {
+      "id": "j-heavy",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "heavy → найважчий",
+      "answer": "heav i est",
+      "extra": ["y", "st"],
+      "hint": "Слово закінчується на y. На яку букву її міняємо?"
+    },
+    {
+      "id": "j-funny",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "funny → найсмішніший",
+      "answer": "funn i est",
+      "extra": ["y"],
+      "hint": "Слово закінчується на y. На яку букву її міняємо?"
+    },
+    {
+      "id": "j-tall",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "tall → найвищий",
+      "answer": "tall est",
+      "extra": ["l", "st"],
+      "hint": "Подивись на дві останні літери: обидві приголосні, як s-t у fast? Тоді нічого не подвоюємо."
+    },
+    {
+      "id": "f-hot",
+      "level": 1,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "hot → the ___",
+      "options": ["hottest", "hotest", "most hot"],
+      "answer": 0,
+      "hint": "Подивись на дві останні літери: голосна + приголосна, як i-g у big? Що тоді робимо з останньою літерою?",
+      "explain": "hot закінчується на o-t (голосна + приголосна) — подвоюємо t: the hottest."
+    },
+    {
+      "id": "f-large",
+      "level": 1,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "large → the ___",
+      "options": ["largest", "largeest", "most large"],
+      "answer": 0,
+      "hint": "Слово вже закінчується на e. Скільки букв ще треба додати?",
+      "explain": "large вже закінчується на e — додаємо тільки st: the largest."
+    },
+    {
+      "id": "f-happy",
+      "level": 1,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "happy → the ___",
+      "options": ["happiest", "happyest", "most happy"],
+      "answer": 0,
+      "hint": "Слово закінчується на y. На яку букву її міняємо?",
+      "explain": "happy закінчується на y: y → i, потім est: the happiest."
+    },
+    {
+      "id": "f-big",
+      "level": 1,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "big → the ___",
+      "options": ["biggest", "bigest", "most big"],
+      "answer": 0,
+      "hint": "Подивись на дві останні літери: голосна + приголосна, як i-g у big? Що тоді робимо з останньою літерою?",
+      "explain": "big закінчується на i-g (голосна + приголосна) — подвоюємо g: the biggest."
+    },
+    {
+      "id": "f-cold",
+      "level": 1,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "cold → the ___",
+      "options": ["coldest", "colddest", "most cold"],
+      "answer": 0,
+      "hint": "Подивись на дві останні літери: обидві приголосні, як s-t у fast? Тоді нічого не подвоюємо.",
+      "explain": "cold: у кінці дві приголосні — просто + est: the coldest."
+    },
+    {
+      "id": "f-nice",
+      "level": 1,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "nice → the ___",
+      "options": ["nicest", "niceest", "most nice"],
+      "answer": 0,
+      "hint": "Слово вже закінчується на e. Скільки букв ще треба додати?",
+      "explain": "nice вже закінчується на e — додаємо тільки st: the nicest."
+    },
+    {
+      "id": "est-or-most",
+      "level": 2,
+      "type": "sort",
+      "label": "Слово",
+      "categories": [
+        {
+          "name": "the + est",
+          "q": "коротке слово"
+        },
+        {
+          "name": "the most + слово",
+          "q": "довге слово"
+        }
+      ],
+      "items": [
+        ["fast", 0],
+        ["high", 0],
+        ["cheap", 0],
+        ["big", 0],
+        ["large", 0],
+        ["heavy", 0],
+        ["beautiful", 1],
+        ["expensive", 1],
+        ["interesting", 1],
+        ["difficult", 1],
+        ["exciting", 1],
+        ["dangerous", 1]
+      ],
+      "explain": {
+        "fast": "fast — один склад: the fastest.",
+        "high": "high — один склад: the highest.",
+        "cheap": "cheap — один склад: the cheapest.",
+        "big": "big — один склад: the biggest.",
+        "large": "large — один склад: the largest.",
+        "heavy": "hea-vy — два склади, але на y: the heaviest.",
+        "beautiful": "beau-ti-ful — три склади: the most beautiful.",
+        "expensive": "ex-pen-sive — три склади: the most expensive.",
+        "interesting": "in-te-res-ting — довге слово: the most interesting.",
+        "difficult": "dif-fi-cult — три склади: the most difficult.",
+        "exciting": "ex-ci-ting — три склади: the most exciting.",
+        "dangerous": "dan-ge-rous — три склади: the most dangerous."
+      },
+      "hint": "Поплескай склади. Короткі слова й слова на y беруть -est, довгі — the most."
+    },
+    {
+      "id": "m-difficult",
+      "level": 2,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "difficult → ___",
+      "options": ["the most difficult", "the difficultest"],
+      "answer": 0,
+      "hint": "Поплескай склади. Якщо їх три й більше — закінчення не додаємо.",
+      "explain": "dif-fi-cult — три склади: the most difficult."
+    },
+    {
+      "id": "m-expensive",
+      "level": 2,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "expensive → ___",
+      "options": ["the most expensive", "the expensivest"],
+      "answer": 0,
+      "hint": "Поплескай склади. Якщо їх три й більше — закінчення не додаємо.",
+      "explain": "ex-pen-sive — три склади: the most expensive."
+    },
+    {
+      "id": "m-exciting",
+      "level": 2,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "exciting → ___",
+      "options": ["the most exciting", "the excitingest"],
+      "answer": 0,
+      "hint": "Поплескай склади. Якщо їх три й більше — закінчення не додаємо.",
+      "explain": "ex-ci-ting — три склади: the most exciting."
+    },
+    {
+      "id": "m-beautiful",
+      "level": 2,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "beautiful → ___",
+      "options": ["the most beautiful", "the beautifulest"],
+      "answer": 0,
+      "hint": "Поплескай склади. Якщо їх три й більше — закінчення не додаємо.",
+      "explain": "beau-ti-ful — три склади: the most beautiful."
+    },
+    {
+      "id": "m-fast",
+      "level": 2,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "fast → ___",
+      "options": ["the fastest", "the most fast"],
+      "answer": 0,
+      "hint": "Поплескай склади. Скільки їх у слові fast?",
+      "explain": "fast — один склад, тож most не треба: the fastest."
+    },
+    {
+      "id": "m-heavy",
+      "level": 2,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "heavy → ___",
+      "options": ["the heaviest", "the most heavy"],
+      "answer": 0,
+      "hint": "Слово на y. Згадай happy → the happiest.",
+      "explain": "hea-vy — два склади, але на y: the heaviest. Most тут не треба."
+    },
+    {
+      "id": "s-cheetah",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "A cheetah is ___ animal.",
+      "options": ["the fastest", "fastest", "the faster"],
+      "answer": 0,
+      "hint": "Найшвидша з усіх тварин. Що ставимо перед словом?",
+      "explain": "Найкраща з усіх — the + est: the fastest."
+    },
+    {
+      "id": "s-everest",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "Everest is ___ mountain in the world.",
+      "options": ["the highest", "highest", "the higher"],
+      "answer": 0,
+      "hint": "Найвища з усіх гір у світі. Не забудь the.",
+      "explain": "Найвища з усіх — the highest."
+    },
+    {
+      "id": "s-cake",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "This is ___ cake in the shop.",
+      "options": ["the biggest", "the bigest", "bigger"],
+      "answer": 0,
+      "hint": "big закінчується на i-g. Що робимо з останньою літерою? І не забудь the.",
+      "explain": "Найбільший з усіх у магазині: big → the biggest."
+    },
+    {
+      "id": "s-diamond",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "A diamond is ___ stone.",
+      "options": ["the most expensive", "the expensivest", "more expensive"],
+      "answer": 0,
+      "hint": "expensive — довге слово. І не забудь the.",
+      "explain": "Довге слово: the most expensive."
+    },
+    {
+      "id": "s-math",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "Math is ___ subject.",
+      "options": ["the most difficult", "the difficultest", "more difficult"],
+      "answer": 0,
+      "hint": "difficult — довге слово.",
+      "explain": "Найважчий з усіх предметів: the most difficult."
+    },
+    {
+      "id": "s-summer",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "Summer is ___ season.",
+      "options": ["the hottest", "the hotest", "hotter"],
+      "answer": 0,
+      "hint": "hot закінчується на o-t, як big. Що робимо з останньою літерою?",
+      "explain": "Найспекотніша пора року: the hottest."
+    },
+    {
+      "id": "s-whale",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "A blue whale is ___ animal in the world.",
+      "options": ["the heaviest", "the heavyest", "heavier"],
+      "answer": 0,
+      "hint": "heavy закінчується на y.",
+      "explain": "heavy → the heaviest: y → i + est."
+    },
+    {
+      "id": "s-game",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "This is ___ game.",
+      "options": ["the most exciting", "the excitingest", "more exciting"],
+      "answer": 0,
+      "hint": "exciting — довге слово.",
+      "explain": "Найцікавіша гра: the most exciting."
+    },
+    {
+      "id": "s-girl",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "She is ___ girl in our class.",
+      "options": ["the happiest", "the happyest", "happier"],
+      "answer": 0,
+      "hint": "happy закінчується на y.",
+      "explain": "Найщасливіша в класі: the happiest."
+    },
+    {
+      "id": "b-cheetah",
+      "level": 3,
+      "type": "build",
+      "prompt": "Гепард — найшвидша тварина.",
+      "answer": "A cheetah is the fastest animal",
+      "extra": ["faster", "most"],
+      "hint": "Перед словом-«най» ставимо the."
+    },
+    {
+      "id": "b-everest",
+      "level": 3,
+      "type": "build",
+      "prompt": "Еверест — найвища гора.",
+      "answer": "Everest is the highest mountain",
+      "extra": ["higher", "more"],
+      "hint": "Everest is → the → найвища → гора."
+    },
+    {
+      "id": "b-diamond",
+      "level": 3,
+      "type": "build",
+      "prompt": "Діамант — найдорожчий камінь.",
+      "answer": "A diamond is the most expensive stone",
+      "extra": ["more"],
+      "hint": "Довге слово: the most + слово."
+    },
+    {
+      "id": "b-cake",
+      "level": 3,
+      "type": "build",
+      "prompt": "Це найбільший торт у магазині.",
+      "answer": "This is the biggest cake in the shop",
+      "extra": ["bigger"],
+      "hint": "This is the … cake. «У магазині» — in the shop."
+    },
+    {
+      "id": "b-summer",
+      "level": 3,
+      "type": "build",
+      "prompt": "Літо — найспекотніша пора року.",
+      "answer": "Summer is the hottest season",
+      "extra": ["hotter", "more"],
+      "hint": "Summer is the … season. Яка форма слова hot?"
+    }
+  ]
+}

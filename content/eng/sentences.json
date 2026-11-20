@@ -1,0 +1,101 @@
+{
+  "id": "eng/sentences",
+  "subject": "eng",
+  "title": "Складаємо речення",
+  "exercises": [
+    {
+      "id": "build-cat",
+      "type": "build",
+      "prompt": "У мене є маленький кіт.",
+      "answer": "I have a small cat",
+      "extra": ["big"]
+    },
+    {
+      "id": "build-can",
+      "type": "build",
+      "prompt": "Я вмію плавати.",
+      "answer": "I can swim",
+      "extra": ["run"]
+    },
+    {
+      "id": "build-there",
+      "type": "build",
+      "prompt": "На столі є книга.",
+      "answer": "There is a book on the table",
+      "extra": ["are"],
+      "hint": "Речення починається словами There is."
+    },
+    {
+      "id": "build-name",
+      "type": "build",
+      "prompt": "Мене звати Анна.",
+      "answer": "My name is Anna",
+      "extra": ["her"]
+    },
+    {
+      "id": "build-like",
+      "type": "build",
+      "prompt": "Я люблю яблука.",
+      "answer": "I like apples",
+      "extra": ["apple"]
+    },
+    {
+      "id": "build-sister",
+      "type": "build",
+      "prompt": "Моя сестра гарна.",
+      "answer": "My sister is beautiful",
+      "extra": ["are"]
+    },
+    {
+      "id": "build-dog",
+      "type": "build",
+      "prompt": "Собака біжить у парку.",
+      "answer": "The dog runs in the park",
+      "extra": ["run", "on"]
+    },
+    {
+      "id": "build-bag",
+      "type": "build",
+      "prompt": "Мій рюкзак червоний.",
+      "answer": "My bag is red",
+      "extra": ["blue"]
+    },
+    {
+      "id": "build-have",
+      "type": "build",
+      "prompt": "У неї є брат.",
+      "answer": "She has a brother",
+      "extra": ["have"],
+      "hint": "З she (вона) дієслово have має форму has."
+    },
+    {
+      "id": "build-read",
+      "type": "build",
+      "prompt": "Ми читаємо книгу в школі.",
+      "answer": "We read a book at school",
+      "extra": ["in", "reads"]
+    },
+    {
+      "id": "build-ques-like",
+      "type": "build",
+      "prompt": "Ти любиш молоко?",
+      "answer": "Do you like milk?",
+      "extra": ["does"],
+      "hint": "Питання з you починається зі слова Do."
+    },
+    {
+      "id": "build-ques-name",
+      "type": "build",
+      "prompt": "Як тебе звати?",
+      "answer": "What is your name?",
+      "extra": ["where"]
+    },
+    {
+      "id": "build-weather",
+      "type": "build",
+      "prompt": "Сьогодні сонячно.",
+      "answer": "It is sunny today",
+      "extra": ["rainy"]
+    }
+  ]
+}

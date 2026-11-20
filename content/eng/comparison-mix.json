@@ -1,0 +1,275 @@
+{
+  "id": "eng/comparison-mix",
+  "subject": "eng",
+  "title": "Comparison 3: двох чи всіх?",
+  "set": "Comparison",
+  "levels": ["Двох чи всіх?", "Знайди в реченні", "Склади речення"],
+  "exercises": [
+    {
+      "id": "two-or-all",
+      "level": 1,
+      "type": "sort",
+      "label": "Форма слова",
+      "categories": [
+        {
+          "name": "Comparative",
+          "q": "порівнюю двох: … than"
+        },
+        {
+          "name": "Superlative",
+          "q": "найкращий з усіх: the …"
+        }
+      ],
+      "items": [
+        ["faster", 0],
+        ["bigger", 0],
+        ["more expensive", 0],
+        ["nicer", 0],
+        ["more difficult", 0],
+        ["heavier", 0],
+        ["the tallest", 1],
+        ["the most beautiful", 1],
+        ["the happiest", 1],
+        ["the hottest", 1],
+        ["the biggest", 1],
+        ["the most exciting", 1]
+      ],
+      "explain": {
+        "faster": "faster — швидший (з двох).",
+        "bigger": "bigger — більший (з двох).",
+        "more expensive": "more expensive — дорожчий (з двох).",
+        "nicer": "nicer — гарніший (з двох).",
+        "more difficult": "more difficult — складніший (з двох).",
+        "heavier": "heavier — важчий (з двох).",
+        "the tallest": "the tallest — найвищий з усіх.",
+        "the most beautiful": "the most beautiful — найкрасивіший з усіх.",
+        "the happiest": "the happiest — найщасливіший з усіх.",
+        "the hottest": "the hottest — найгарячіший з усіх.",
+        "the biggest": "the biggest — найбільший з усіх.",
+        "the most exciting": "the most exciting — найцікавіший з усіх."
+      },
+      "hint": "-er і more — коли порівнюємо двох («більший»). the, -est і the most — коли один кращий за всіх («най…»)."
+    },
+    {
+      "id": "x-tom-1",
+      "level": 1,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "Tom is ___ than Ben.",
+      "options": ["taller", "the tallest", "tall"],
+      "answer": 0,
+      "hint": "Подивись на слово після пропуску. than означає «ніж»: скільки предметів порівнюємо?",
+      "explain": "Є than — порівнюємо двох: Tom і Ben. Отже, taller."
+    },
+    {
+      "id": "x-tom-2",
+      "level": 1,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "Tom is ___ boy in the class.",
+      "options": ["the tallest", "taller", "tallest"],
+      "answer": 0,
+      "hint": "Подивись на кінець речення: in the class, in the world, of the year — це з усіх. Що ставимо перед словом?",
+      "explain": "in the class — найвищий з усіх у класі: the tallest."
+    },
+    {
+      "id": "x-bag-1",
+      "level": 1,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "My bag is ___ than your bag.",
+      "options": ["heavier", "the heaviest", "heavy"],
+      "answer": 0,
+      "hint": "Подивись на слово після пропуску. than означає «ніж»: скільки предметів порівнюємо?",
+      "explain": "Є than — порівнюємо дві сумки: heavier."
+    },
+    {
+      "id": "x-bag-2",
+      "level": 1,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "This is ___ bag in the shop.",
+      "options": ["the heaviest", "heavier", "the heavier"],
+      "answer": 0,
+      "hint": "Подивись на кінець речення: in the class, in the world, of the year — це з усіх. Що ставимо перед словом?",
+      "explain": "in the shop — найважча з усіх у магазині: the heaviest."
+    },
+    {
+      "id": "x-dog",
+      "level": 1,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "A dog is ___ than a cat.",
+      "options": ["bigger", "the biggest", "big"],
+      "answer": 0,
+      "hint": "Подивись на слово після пропуску. than означає «ніж»: скільки предметів порівнюємо?",
+      "explain": "Є than — порівнюємо двох: bigger."
+    },
+    {
+      "id": "x-zoo",
+      "level": 1,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "An elephant is ___ animal in the zoo.",
+      "options": ["the biggest", "bigger", "the bigger"],
+      "answer": 0,
+      "hint": "Подивись на кінець речення: in the class, in the world, of the year — це з усіх. Що ставимо перед словом?",
+      "explain": "in the zoo — найбільша з усіх тварин у зоопарку: the biggest."
+    },
+    {
+      "id": "x-book-1",
+      "level": 1,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "A book is ___ than a film.",
+      "options": ["more interesting", "the most interesting", "interestinger"],
+      "answer": 0,
+      "hint": "Подивись на слово після пропуску. than означає «ніж»: скільки предметів порівнюємо?",
+      "explain": "Є than — порівнюємо двох, слово довге: more interesting."
+    },
+    {
+      "id": "x-book-2",
+      "level": 1,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "This is ___ book in the library.",
+      "options": ["the most interesting", "more interesting", "interestinger"],
+      "answer": 0,
+      "hint": "Подивись на кінець речення: in the class, in the world, of the year — це з усіх. Що ставимо перед словом?",
+      "explain": "in the library — найцікавіша з усіх: the most interesting."
+    },
+    {
+      "id": "x-winter",
+      "level": 1,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "Winter is ___ than autumn.",
+      "options": ["colder", "the coldest", "cold"],
+      "answer": 0,
+      "hint": "Подивись на слово після пропуску. than означає «ніж»: скільки предметів порівнюємо?",
+      "explain": "Є than — порівнюємо дві пори року: colder."
+    },
+    {
+      "id": "x-january",
+      "level": 1,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "January is ___ month of the year.",
+      "options": ["the coldest", "colder", "coldest"],
+      "answer": 0,
+      "hint": "Подивись на кінець речення: in the class, in the world, of the year — це з усіх. Що ставимо перед словом?",
+      "explain": "of the year — найхолодніший з усіх місяців: the coldest."
+    },
+    {
+      "id": "p-younger",
+      "level": 2,
+      "type": "pick",
+      "q": "Знайди слово-порівняння",
+      "text": "My brother is younger than me.",
+      "answer": ["younger"],
+      "ask": "Яке слово порівнює двох?",
+      "hint": "Шукай слово із закінченням -er.",
+      "explain": "younger — молодший: young + er."
+    },
+    {
+      "id": "p-highest",
+      "level": 2,
+      "type": "pick",
+      "q": "Знайди слово-порівняння",
+      "text": "Everest is the highest mountain in the world.",
+      "answer": ["highest"],
+      "ask": "Яке слово означає «най…»?",
+      "hint": "Шукай слово із закінченням -est.",
+      "explain": "highest — найвища: high + est."
+    },
+    {
+      "id": "p-more",
+      "level": 2,
+      "type": "pick",
+      "q": "Знайди два слова, що порівнюють",
+      "text": "A car is more expensive than a bike.",
+      "answer": ["more", "expensive"],
+      "ask": "Довге слово порівнюється разом із помічником. Знайди обидва.",
+      "hint": "Довге слово саме не змінюється — перед ним стоїть інше слово.",
+      "explain": "more expensive — дорожчий: more + довге слово."
+    },
+    {
+      "id": "p-most",
+      "level": 2,
+      "type": "pick",
+      "q": "Знайди два слова, що означають «най…»",
+      "text": "Math is the most difficult subject.",
+      "answer": ["most", "difficult"],
+      "ask": "Яке довге слово стоїть із помічником?",
+      "hint": "Шукай довге слово й слово перед ним.",
+      "explain": "the most difficult — найскладніший: the most + довге слово."
+    },
+    {
+      "id": "p-than",
+      "level": 2,
+      "type": "pick",
+      "q": "Знайди слово, що означає «ніж»",
+      "text": "A cheetah is faster than a dog.",
+      "answer": ["than"],
+      "ask": "Яке слово стоїть після слова-порівняння?",
+      "hint": "Воно йде одразу після faster.",
+      "explain": "than — ніж. Воно завжди йде після comparative."
+    },
+    {
+      "id": "p-happiest",
+      "level": 2,
+      "type": "pick",
+      "q": "Знайди слово-порівняння",
+      "text": "She is the happiest girl in our class.",
+      "answer": ["happiest"],
+      "ask": "Яке слово означає «най…»?",
+      "hint": "Шукай слово із закінченням -est.",
+      "explain": "happiest — найщасливіша: happy → happiest."
+    },
+    {
+      "id": "b-brother",
+      "level": 3,
+      "type": "build",
+      "prompt": "Мій брат молодший за мене.",
+      "answer": "My brother is younger than me",
+      "extra": ["the", "youngest"],
+      "hint": "Порівнюємо двох — після слова-порівняння йде than."
+    },
+    {
+      "id": "b-january",
+      "level": 3,
+      "type": "build",
+      "prompt": "Січень — найхолодніший місяць.",
+      "answer": "January is the coldest month",
+      "extra": ["colder", "than"],
+      "hint": "Найхолодніший з усіх — перед словом стоїть the."
+    },
+    {
+      "id": "b-book",
+      "level": 3,
+      "type": "build",
+      "prompt": "Книжка цікавіша за фільм.",
+      "answer": "A book is more interesting than a film",
+      "extra": ["most"],
+      "hint": "Порівнюємо двох, слово довге: more + слово + than."
+    },
+    {
+      "id": "b-library",
+      "level": 3,
+      "type": "build",
+      "prompt": "Це найцікавіша книжка.",
+      "answer": "This is the most interesting book",
+      "extra": ["more", "than"],
+      "hint": "Найцікавіша з усіх: the most + довге слово."
+    },
+    {
+      "id": "b-bag",
+      "level": 3,
+      "type": "build",
+      "prompt": "Моя сумка важча за твою сумку.",
+      "answer": "My bag is heavier than your bag",
+      "extra": ["heaviest"],
+      "hint": "Порівнюємо дві сумки: heavy → ? + than."
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "id": "eng/unit3-desert5-spelling",
+  "subject": "eng",
+  "title": "Unit 3.1: пишу слова і порівнюю",
+  "set": "Unit 3",
+  "levels": ["Пишу слова", "Порівнюю пустелі"],
+  "exercises": [
+    {
+      "id": "sp-desert",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "пустеля",
+      "answer": "d e s e r t",
+      "extra": ["ss"],
+      "hint": "Скільки s у слові? З двома s виходить зовсім інше слово — «десерт»."
+    },
+    {
+      "id": "sp-different",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "різний",
+      "answer": "dif fer ent",
+      "extra": ["ant", "fe"],
+      "hint": "Поплескай склади: dif-fer-ent. Остання частина пишеться через e."
+    },
+    {
+      "id": "sp-sandy",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "піщаний",
+      "answer": "sand y",
+      "extra": ["i"],
+      "hint": "sand — пісок. Що додаємо, щоб вийшло «піщаний»?"
+    },
+    {
+      "id": "sp-rocky",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "кам'янистий",
+      "answer": "ro ck y",
+      "extra": ["k"],
+      "hint": "rock — камінь, у кінці ck. Потім додаємо y."
+    },
+    {
+      "id": "sp-icy",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "крижаний",
+      "answer": "i c y",
+      "extra": ["e", "s"],
+      "hint": "ice — лід. Кінцеву e прибираємо і додаємо y."
+    },
+    {
+      "id": "sp-dry",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "сухий",
+      "answer": "d r y",
+      "extra": ["i", "a"],
+      "hint": "Три літери, у кінці та сама, що в sandy."
+    },
+    {
+      "id": "sp-empty",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "порожній",
+      "answer": "emp ty",
+      "extra": ["ti", "em"],
+      "hint": "Два склади: emp-ty. У кінці — y."
+    },
+    {
+      "id": "sp-bark",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "кора",
+      "answer": "b a r k",
+      "extra": ["c"],
+      "hint": "Читається [ба:к], у кінці k."
+    },
+    {
+      "id": "sp-earth",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "Земля (планета)",
+      "answer": "Ear th",
+      "extra": ["Er", "ear"],
+      "hint": "Назва планети пишеться з великої літери. Початок як у ear — вухо."
+    },
+    {
+      "id": "sp-plant",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "рослина",
+      "answer": "pl a nt",
+      "extra": ["e"],
+      "hint": "Читається [пла:нт], пишеться з a."
+    },
+    {
+      "id": "sp-store",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "зберігати",
+      "answer": "st or e",
+      "extra": ["oo"],
+      "hint": "Читається [стɔ:], а в кінці німа e."
+    },
+
+    {
+      "id": "c-dry",
+      "level": 2,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "dry → the ___",
+      "options": ["driest", "dryest", "most dry"],
+      "answer": 0,
+      "hint": "dry закінчується на y, як happy.",
+      "explain": "dry → the driest: y → i + est, як happy → the happiest."
+    },
+    {
+      "id": "c-sandy",
+      "level": 2,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "sandy → ___",
+      "options": ["sandier", "sandyer", "more sandy"],
+      "answer": 0,
+      "hint": "Слово на y. Згадай happy → happier.",
+      "explain": "sandy → sandier: y → i + er."
+    },
+    {
+      "id": "c-icy",
+      "level": 2,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "icy → the ___",
+      "options": ["iciest", "icyest", "most icy"],
+      "answer": 0,
+      "hint": "Слово на y. Згадай happy → the happiest.",
+      "explain": "icy → the iciest: y → i + est."
+    },
+    {
+      "id": "c-large",
+      "level": 2,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "large → the ___",
+      "options": ["largest", "largeest", "most large"],
+      "answer": 0,
+      "hint": "Слово вже закінчується на e. Скільки букв ще треба додати?",
+      "explain": "large → the largest: слово на e, додаємо лише st."
+    },
+    {
+      "id": "c-different",
+      "level": 2,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "different → ___",
+      "options": ["more different", "differenter"],
+      "answer": 0,
+      "hint": "Поплескай склади. Якщо їх три й більше — закінчення не додаємо.",
+      "explain": "dif-fer-ent — три склади, тому more different."
+    },
+    {
+      "id": "s-antarctica",
+      "level": 2,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "Antarctica is ___ desert in the world.",
+      "options": ["the largest", "larger", "the most large"],
+      "answer": 0,
+      "hint": "in the world — з усіх у світі. Що ставимо перед словом?",
+      "explain": "Найбільша з усіх: the + large + st = the largest."
+    },
+    {
+      "id": "s-sahara",
+      "level": 2,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "The Sahara is ___ than the Gobi.",
+      "options": ["hotter", "the hottest", "hoter"],
+      "answer": 0,
+      "hint": "than — порівнюємо дві пустелі. Що відбувається з t у hot?",
+      "explain": "Порівнюємо двох: hot → hotter (подвоюємо t)."
+    },
+    {
+      "id": "b-antarctica",
+      "level": 2,
+      "type": "build",
+      "prompt": "Антарктида — найбільша пустеля у світі.",
+      "answer": "Antarctica is the largest desert in the world",
+      "extra": ["larger", "than"],
+      "hint": "Найбільша з усіх: the + слово з -st."
+    },
+    {
+      "id": "b-sahara",
+      "level": 2,
+      "type": "build",
+      "prompt": "Сахара спекотніша за Гобі.",
+      "answer": "The Sahara is hotter than the Gobi",
+      "extra": ["hottest"],
+      "hint": "Порівнюємо дві пустелі: слово з -er і than."
+    }
+  ]
+}

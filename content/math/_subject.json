@@ -1,0 +1,10 @@
+{
+  "subject": "math",
+  "groups": [
+    { "id": "table", "title": "Таблиця множення і ділення", "icon": "table" },
+    { "id": "column", "title": "Дії в стовпчик", "icon": "column" },
+    { "id": "eq", "title": "Рівняння і вирази", "icon": "equation" },
+    { "id": "units", "title": "Величини", "icon": "ruler" },
+    { "id": "tasks", "title": "Задачі", "icon": "task" }
+  ]
+}

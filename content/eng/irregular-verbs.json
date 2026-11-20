@@ -1,0 +1,407 @@
+{
+  "id": "eng/irregular-verbs",
+  "subject": "eng",
+  "title": "Irregular verbs: 10 неправильних дієслів",
+  "set": "Unit 3",
+  "levels": ["Пари: зараз — у минулому", "Пишу правильно", "У реченні"],
+  "exercises": [
+    {
+      "id": "iv-match-1",
+      "level": 1,
+      "type": "match",
+      "title": "Зараз → у минулому",
+      "pairs": [
+        ["write", "wrote"],
+        ["swim", "swam"],
+        ["see", "saw"],
+        ["feel", "felt"],
+        ["say", "said"]
+      ]
+    },
+    {
+      "id": "iv-match-2",
+      "level": 1,
+      "type": "match",
+      "title": "Зараз → у минулому",
+      "pairs": [
+        ["am / is", "was"],
+        ["are", "were"],
+        ["think", "thought"],
+        ["come", "came"],
+        ["can", "could"]
+      ]
+    },
+    {
+      "id": "iv-mean-1",
+      "level": 1,
+      "type": "match",
+      "title": "Що означає дієслово?",
+      "pairs": [
+        ["write", "писати"],
+        ["swim", "плавати"],
+        ["see", "бачити"],
+        ["feel", "відчувати"],
+        ["say", "сказати"]
+      ]
+    },
+    {
+      "id": "iv-mean-2",
+      "level": 1,
+      "type": "match",
+      "title": "Що означає дієслово?",
+      "pairs": [
+        ["think", "думати"],
+        ["come", "приходити"],
+        ["read", "читати"],
+        ["can", "могти, вміти"],
+        ["be (am, is, are)", "бути"]
+      ]
+    },
+    {
+      "id": "f-write",
+      "level": 1,
+      "type": "choice",
+      "q": "Яка форма в минулому?",
+      "text": "write → ___",
+      "options": ["wrote", "writed", "write"],
+      "answer": 0,
+      "hint": "Дієслово неправильне: -ed не додаємо. Буква i в середині змінюється.",
+      "explain": "write — wrote: неправильне дієслово, i змінюється на o."
+    },
+    {
+      "id": "f-swim",
+      "level": 1,
+      "type": "choice",
+      "q": "Яка форма в минулому?",
+      "text": "swim → ___",
+      "options": ["swam", "swimmed", "swum"],
+      "answer": 0,
+      "hint": "Змінюється лише одна голосна в середині, як у sing — sang.",
+      "explain": "swim — swam: i змінюється на a."
+    },
+    {
+      "id": "f-see",
+      "level": 1,
+      "type": "choice",
+      "q": "Яка форма в минулому?",
+      "text": "see → ___",
+      "options": ["saw", "seed", "sees"],
+      "answer": 0,
+      "hint": "Слово з трьох літер, звучить [сɔ:].",
+      "explain": "see — saw: неправильне дієслово."
+    },
+    {
+      "id": "f-feel",
+      "level": 1,
+      "type": "choice",
+      "q": "Яка форма в минулому?",
+      "text": "feel → ___",
+      "options": ["felt", "feeled", "fell"],
+      "answer": 0,
+      "hint": "Подвійне ee стає одним e, а в кінці з'являється t.",
+      "explain": "feel — felt: ee → e, у кінці t."
+    },
+    {
+      "id": "f-say",
+      "level": 1,
+      "type": "choice",
+      "q": "Яка форма в минулому?",
+      "text": "say → ___",
+      "options": ["said", "sayed", "sad"],
+      "answer": 0,
+      "hint": "Пишеться з ai, хоч читається [сед].",
+      "explain": "say — said: y стає i, і додаємо d. Читається [сед]."
+    },
+    {
+      "id": "f-think",
+      "level": 1,
+      "type": "choice",
+      "q": "Яка форма в минулому?",
+      "text": "think → ___",
+      "options": ["thought", "thinked", "thank"],
+      "answer": 0,
+      "hint": "Слово довше, ніж здається: у ньому є «німе» gh.",
+      "explain": "think — thought: читається [θɔ:t], пишеться з ough."
+    },
+    {
+      "id": "f-come",
+      "level": 1,
+      "type": "choice",
+      "q": "Яка форма в минулому?",
+      "text": "come → ___",
+      "options": ["came", "comed", "come"],
+      "answer": 0,
+      "hint": "Змінюється одна голосна: o → a.",
+      "explain": "come — came: o змінюється на a."
+    },
+    {
+      "id": "f-read",
+      "level": 1,
+      "type": "choice",
+      "q": "Яка форма в минулому?",
+      "text": "read → ___",
+      "options": ["read", "readed", "red"],
+      "answer": 0,
+      "hint": "Пишеться так само, а читається інакше: [ред].",
+      "explain": "read — read: пишеться однаково, але в минулому читається [ред]."
+    },
+    {
+      "id": "f-can",
+      "level": 1,
+      "type": "choice",
+      "q": "Яка форма в минулому?",
+      "text": "can → ___",
+      "options": ["could", "canned", "cant"],
+      "answer": 0,
+      "hint": "Пишеться з «німим» l: [куд].",
+      "explain": "can — could: читається [куд], l не вимовляємо."
+    },
+    {
+      "id": "f-is",
+      "level": 1,
+      "type": "choice",
+      "q": "Яка форма в минулому?",
+      "text": "he is → he ___",
+      "options": ["was", "were", "is"],
+      "answer": 0,
+      "hint": "I, he, she, it — одна форма; you, we, they — інша.",
+      "explain": "am / is — was; are — were. He — це він, тож was."
+    },
+    {
+      "id": "f-are",
+      "level": 1,
+      "type": "choice",
+      "q": "Яка форма в минулому?",
+      "text": "they are → they ___",
+      "options": ["were", "was", "are"],
+      "answer": 0,
+      "hint": "I, he, she, it — одна форма; you, we, they — інша.",
+      "explain": "am / is — was; are — were. They — їх багато, тож were."
+    },
+
+    {
+      "id": "sp-wrote",
+      "level": 2,
+      "type": "build",
+      "join": true,
+      "prompt": "write → у минулому",
+      "answer": "w r o t e",
+      "extra": ["i"],
+      "hint": "На початку німа w, а i змінюється."
+    },
+    {
+      "id": "sp-swam",
+      "level": 2,
+      "type": "build",
+      "join": true,
+      "prompt": "swim → у минулому",
+      "answer": "s w a m",
+      "extra": ["i"],
+      "hint": "Голосна в середині змінюється."
+    },
+    {
+      "id": "sp-saw",
+      "level": 2,
+      "type": "build",
+      "join": true,
+      "prompt": "see → у минулому",
+      "answer": "s a w",
+      "extra": ["e"],
+      "hint": "Три літери, остання — w."
+    },
+    {
+      "id": "sp-felt",
+      "level": 2,
+      "type": "build",
+      "join": true,
+      "prompt": "feel → у минулому",
+      "answer": "f e l t",
+      "extra": ["ee"],
+      "hint": "Скільки e лишається в минулому?"
+    },
+    {
+      "id": "sp-said",
+      "level": 2,
+      "type": "build",
+      "join": true,
+      "prompt": "say → у минулому",
+      "answer": "s a i d",
+      "extra": ["e"],
+      "hint": "Читається [сед], а пишеться з двома голосними."
+    },
+    {
+      "id": "sp-thought",
+      "level": 2,
+      "type": "build",
+      "join": true,
+      "prompt": "think → у минулому",
+      "answer": "t h o u g h t",
+      "extra": ["a"],
+      "hint": "Початок як у think — th. Далі ough і t у кінці."
+    },
+    {
+      "id": "sp-came",
+      "level": 2,
+      "type": "build",
+      "join": true,
+      "prompt": "come → у минулому",
+      "answer": "c a m e",
+      "extra": ["o"],
+      "hint": "Кінцева e лишається, змінюється перша голосна."
+    },
+    {
+      "id": "sp-could",
+      "level": 2,
+      "type": "build",
+      "join": true,
+      "prompt": "can → у минулому",
+      "answer": "c o u l d",
+      "extra": ["oo"],
+      "hint": "Читається [куд], але в слові є німа l."
+    },
+    {
+      "id": "sp-were",
+      "level": 2,
+      "type": "build",
+      "join": true,
+      "prompt": "are → у минулому",
+      "answer": "w e r e",
+      "extra": ["a"],
+      "hint": "Чотири літери, дві з них — e."
+    },
+    {
+      "id": "sp-was",
+      "level": 2,
+      "type": "build",
+      "join": true,
+      "prompt": "is → у минулому",
+      "answer": "w a s",
+      "extra": ["o"],
+      "hint": "Читається [воз], а пишеться з a."
+    },
+
+    {
+      "id": "s-letter",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "Yesterday I ___ a letter to my friend.",
+      "options": ["wrote", "write", "writed"],
+      "answer": 0,
+      "hint": "Yesterday — учора, тобто в минулому.",
+      "explain": "Yesterday — минуле: write → wrote."
+    },
+    {
+      "id": "s-camel",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "We ___ a camel in the desert.",
+      "options": ["saw", "see", "seed"],
+      "answer": 0,
+      "hint": "Це вже сталося. Яка форма see у минулому?",
+      "explain": "Подія в минулому: see → saw."
+    },
+    {
+      "id": "s-sea",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "Last summer they ___ in the sea.",
+      "options": ["swam", "swim", "swimmed"],
+      "answer": 0,
+      "hint": "Last summer — минулого літа.",
+      "explain": "Last summer — минуле: swim → swam."
+    },
+    {
+      "id": "s-hot",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "It ___ very hot in the desert yesterday.",
+      "options": ["was", "were", "is"],
+      "answer": 0,
+      "hint": "It — одне, і це було вчора.",
+      "explain": "It + минуле → was."
+    },
+    {
+      "id": "s-tired",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "We ___ tired after the trip.",
+      "options": ["were", "was", "are"],
+      "answer": 0,
+      "hint": "We — нас багато, і це вже минуло.",
+      "explain": "We + минуле → were."
+    },
+    {
+      "id": "s-said",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "Mum ___ \"Good night!\"",
+      "options": ["said", "say", "sayed"],
+      "answer": 0,
+      "hint": "Мама вже це сказала. say у минулому — неправильне.",
+      "explain": "say → said: читається [сед]."
+    },
+    {
+      "id": "s-book",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "I ___ this book last week.",
+      "options": ["read", "readed", "reads"],
+      "answer": 0,
+      "hint": "Last week — минулого тижня. read у минулому пишеться так само.",
+      "explain": "read → read: пишеться однаково, читається [ред]."
+    },
+    {
+      "id": "s-could",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "When I was five, I ___ swim.",
+      "options": ["could", "can", "canned"],
+      "answer": 0,
+      "hint": "When I was five — коли мені було п'ять, тобто в минулому.",
+      "explain": "can → could: у минулому «міг, умів»."
+    },
+    {
+      "id": "b-saw",
+      "level": 3,
+      "type": "build",
+      "prompt": "Я бачив кактус у пустелі.",
+      "answer": "I saw a cactus in the desert",
+      "extra": ["see"],
+      "hint": "Бачив — це минуле: see → ?"
+    },
+    {
+      "id": "b-came",
+      "level": 3,
+      "type": "build",
+      "prompt": "Мій друг прийшов учора.",
+      "answer": "My friend came yesterday",
+      "extra": ["come"],
+      "hint": "Прийшов — минуле: come → ?"
+    },
+    {
+      "id": "b-felt",
+      "level": 3,
+      "type": "build",
+      "prompt": "Я почувався щасливим.",
+      "answer": "I felt happy",
+      "extra": ["feel", "was"]
+    },
+    {
+      "id": "b-thought",
+      "level": 3,
+      "type": "build",
+      "prompt": "Він думав про пустелю.",
+      "answer": "He thought about the desert",
+      "extra": ["think"],
+      "hint": "Думав — минуле: think → ?"
+    }
+  ]
+}
