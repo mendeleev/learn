@@ -1,0 +1,27 @@
+{
+  "id": "ukr/sound-model",
+  "subject": "ukr",
+  "title": "Звукова модель слова",
+  "levels": ["Кожна літера — один звук", "«ь», «я» і «ю» після приголосного", "Два звуки: я, ю, є, ї, щ"],
+  "exercises": [
+    { "id": "mak", "type": "sound", "word": "мак" },
+    { "id": "ruka", "type": "sound", "word": "рука" },
+    { "id": "doroha", "type": "sound", "word": "дорога" },
+    { "id": "kalyna", "type": "sound", "word": "калина" },
+    { "id": "oliina", "type": "sound", "word": "олійна" },
+    { "id": "sontse", "type": "sound", "word": "сонце" },
+    { "id": "kin", "type": "sound", "word": "кінь", "level": 2 },
+    { "id": "den", "type": "sound", "word": "день", "level": 2 },
+    { "id": "chudovysko", "type": "sound", "word": "чудовисько", "level": 2 },
+    { "id": "driapaty", "type": "sound", "word": "дряпати", "level": 2 },
+    { "id": "lysytsia", "type": "sound", "word": "лисиця", "level": 2 },
+    { "id": "liudy", "type": "sound", "word": "люди", "level": 2 },
+    { "id": "yahoda", "type": "sound", "word": "ягода", "level": 3 },
+    { "id": "yunak", "type": "sound", "word": "юнак", "level": 3 },
+    { "id": "yizhak", "type": "sound", "word": "їжак", "level": 3 },
+    { "id": "moia", "type": "sound", "word": "моя", "level": 3 },
+    { "id": "miata", "type": "sound", "word": "м’ята", "level": 3 },
+    { "id": "shchuka", "type": "sound", "word": "щука", "level": 3 },
+    { "id": "kraievyd", "type": "sound", "word": "краєвид", "level": 3 }
+  ]
+}

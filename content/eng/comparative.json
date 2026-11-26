@@ -1,0 +1,542 @@
+{
+  "id": "eng/comparative",
+  "subject": "eng",
+  "title": "Comparison 1: comparative (-er, more)",
+  "set": "Comparison",
+  "levels": ["Як додати -er", "-er чи more", "Порівнюю двох"],
+  "exercises": [
+    {
+      "id": "er-rules-1",
+      "level": 1,
+      "type": "sort",
+      "label": "Слово",
+      "categories": [
+        {
+          "name": "+ er",
+          "q": "як fast → faster"
+        },
+        {
+          "name": "+ r",
+          "q": "як nice → nicer"
+        },
+        {
+          "name": "y → i + er",
+          "q": "як happy → happier"
+        },
+        {
+          "name": "подвоїти + er",
+          "q": "як big → bigger"
+        }
+      ],
+      "items": [
+        ["fast", 0],
+        ["tall", 0],
+        ["large", 1],
+        ["safe", 1],
+        ["heavy", 2],
+        ["easy", 2],
+        ["hot", 3],
+        ["thin", 3]
+      ],
+      "explain": {
+        "fast": "fast → faster (просто + er).",
+        "tall": "tall → taller (просто + er).",
+        "large": "large → larger (вже є e, + r).",
+        "safe": "safe → safer (вже є e, + r).",
+        "heavy": "heavy → heavier (y → i).",
+        "easy": "easy → easier (y → i).",
+        "hot": "hot → hotter (подвоюємо t).",
+        "thin": "thin → thinner (подвоюємо n)."
+      },
+      "hint": "Порівняй кінець слова з прикладами на кнопках. Закінчується на e чи на y? Якщо ні — подивись на дві останні літери: голосна + приголосна, як i-g у big?"
+    },
+    {
+      "id": "er-rules-2",
+      "level": 1,
+      "type": "sort",
+      "label": "Слово",
+      "categories": [
+        {
+          "name": "+ er",
+          "q": "як fast → faster"
+        },
+        {
+          "name": "+ r",
+          "q": "як nice → nicer"
+        },
+        {
+          "name": "y → i + er",
+          "q": "як happy → happier"
+        },
+        {
+          "name": "подвоїти + er",
+          "q": "як big → bigger"
+        }
+      ],
+      "items": [
+        ["cold", 0],
+        ["long", 0],
+        ["wide", 1],
+        ["late", 1],
+        ["funny", 2],
+        ["busy", 2],
+        ["sad", 3],
+        ["wet", 3]
+      ],
+      "explain": {
+        "cold": "cold → colder (просто + er).",
+        "long": "long → longer (просто + er).",
+        "wide": "wide → wider (вже є e, + r).",
+        "late": "late → later (вже є e, + r).",
+        "funny": "funny → funnier (y → i).",
+        "busy": "busy → busier (y → i).",
+        "sad": "sad → sadder (подвоюємо d).",
+        "wet": "wet → wetter (подвоюємо t)."
+      },
+      "hint": "Порівняй кінець слова з прикладами на кнопках. Закінчується на e чи на y? Якщо ні — подивись на дві останні літери: голосна + приголосна, як i-g у big?"
+    },
+    {
+      "id": "j-big",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "big → більший",
+      "answer": "big g er",
+      "extra": ["r"],
+      "hint": "Подивись на дві останні літери: голосна + приголосна, як i-g у big? Що тоді робимо з останньою літерою?"
+    },
+    {
+      "id": "j-hot",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "hot → гарячіший",
+      "answer": "hot t er",
+      "extra": ["r"],
+      "hint": "Подивись на дві останні літери: голосна + приголосна, як i-g у big? Що тоді робимо з останньою літерою?"
+    },
+    {
+      "id": "j-thin",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "thin → тонший",
+      "answer": "thin n er",
+      "extra": ["r"],
+      "hint": "Подивись на дві останні літери: голосна + приголосна, як i-g у big? Що тоді робимо з останньою літерою?"
+    },
+    {
+      "id": "j-sad",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "sad → сумніший",
+      "answer": "sad d er",
+      "extra": ["r"],
+      "hint": "Подивись на дві останні літери: голосна + приголосна, як i-g у big? Що тоді робимо з останньою літерою?"
+    },
+    {
+      "id": "j-large",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "large → більший (за розміром)",
+      "answer": "large r",
+      "extra": ["er"],
+      "hint": "Слово вже закінчується на e. Скільки букв ще треба додати?"
+    },
+    {
+      "id": "j-nice",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "nice → гарніший",
+      "answer": "nice r",
+      "extra": ["er"],
+      "hint": "Слово вже закінчується на e. Скільки букв ще треба додати?"
+    },
+    {
+      "id": "j-happy",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "happy → щасливіший",
+      "answer": "happ i er",
+      "extra": ["y"],
+      "hint": "Слово закінчується на y. На яку букву її міняємо?"
+    },
+    {
+      "id": "j-heavy",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "heavy → важчий",
+      "answer": "heav i er",
+      "extra": ["y", "r"],
+      "hint": "Слово закінчується на y. На яку букву її міняємо?"
+    },
+    {
+      "id": "j-easy",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "easy → легший",
+      "answer": "eas i er",
+      "extra": ["y"],
+      "hint": "Слово закінчується на y. На яку букву її міняємо?"
+    },
+    {
+      "id": "j-tall",
+      "level": 1,
+      "type": "build",
+      "join": true,
+      "prompt": "tall → вищий",
+      "answer": "tall er",
+      "extra": ["l", "r"],
+      "hint": "Подивись на дві останні літери: обидві приголосні, як s-t у fast? Тоді нічого не подвоюємо."
+    },
+    {
+      "id": "f-hot",
+      "level": 1,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "hot → ___",
+      "options": ["hotter", "hoter", "more hot"],
+      "answer": 0,
+      "hint": "Подивись на дві останні літери: голосна + приголосна, як i-g у big? Що тоді робимо з останньою літерою?",
+      "explain": "hot закінчується на o-t (голосна + приголосна) — подвоюємо t: hotter."
+    },
+    {
+      "id": "f-large",
+      "level": 1,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "large → ___",
+      "options": ["larger", "largeer", "more large"],
+      "answer": 0,
+      "hint": "Слово вже закінчується на e. Скільки букв ще треба додати?",
+      "explain": "large вже закінчується на e — додаємо тільки r: larger."
+    },
+    {
+      "id": "f-happy",
+      "level": 1,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "happy → ___",
+      "options": ["happier", "happyer", "more happy"],
+      "answer": 0,
+      "hint": "Слово закінчується на y. На яку букву її міняємо?",
+      "explain": "happy закінчується на y: y → i, потім er: happier."
+    },
+    {
+      "id": "f-wet",
+      "level": 1,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "wet → ___",
+      "options": ["wetter", "weter", "more wet"],
+      "answer": 0,
+      "hint": "Подивись на дві останні літери: голосна + приголосна, як i-g у big? Що тоді робимо з останньою літерою?",
+      "explain": "wet закінчується на e-t (голосна + приголосна) — подвоюємо t: wetter."
+    },
+    {
+      "id": "f-cold",
+      "level": 1,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "cold → ___",
+      "options": ["colder", "coldder", "more cold"],
+      "answer": 0,
+      "hint": "Подивись на дві останні літери: обидві приголосні, як s-t у fast? Тоді нічого не подвоюємо.",
+      "explain": "cold: у кінці дві приголосні l і d — просто + er: colder."
+    },
+    {
+      "id": "f-wide",
+      "level": 1,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "wide → ___",
+      "options": ["wider", "wideer", "widder"],
+      "answer": 0,
+      "hint": "Слово вже закінчується на e. Скільки букв ще треба додати?",
+      "explain": "wide вже закінчується на e — додаємо тільки r: wider."
+    },
+    {
+      "id": "er-or-more",
+      "level": 2,
+      "type": "sort",
+      "label": "Слово",
+      "categories": [
+        {
+          "name": "+ er",
+          "q": "коротке слово"
+        },
+        {
+          "name": "more + слово",
+          "q": "довге слово"
+        }
+      ],
+      "items": [
+        ["fast", 0],
+        ["small", 0],
+        ["cheap", 0],
+        ["big", 0],
+        ["nice", 0],
+        ["happy", 0],
+        ["beautiful", 1],
+        ["expensive", 1],
+        ["interesting", 1],
+        ["difficult", 1],
+        ["dangerous", 1],
+        ["comfortable", 1]
+      ],
+      "explain": {
+        "fast": "fast — один склад: faster.",
+        "small": "small — один склад: smaller.",
+        "cheap": "cheap — один склад: cheaper.",
+        "big": "big — один склад: bigger.",
+        "nice": "nice — один склад: nicer.",
+        "happy": "hap-py — два склади, але на y: happier. Слова на y теж беруть -er.",
+        "beautiful": "beau-ti-ful — три склади: more beautiful.",
+        "expensive": "ex-pen-sive — три склади: more expensive.",
+        "interesting": "in-te-res-ting — довге слово: more interesting.",
+        "difficult": "dif-fi-cult — три склади: more difficult.",
+        "dangerous": "dan-ge-rous — три склади: more dangerous.",
+        "comfortable": "com-for-ta-ble — довге слово: more comfortable."
+      },
+      "hint": "Поплескай склади: fast — один, ex-pen-sive — три. Короткі слова й слова на y беруть -er, довгі — more."
+    },
+    {
+      "id": "m-expensive",
+      "level": 2,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "expensive → ___",
+      "options": ["more expensive", "expensiver"],
+      "answer": 0,
+      "hint": "Поплескай склади. Якщо їх три й більше — закінчення не додаємо.",
+      "explain": "ex-pen-sive — три склади, тож ставимо more перед словом: more expensive."
+    },
+    {
+      "id": "m-difficult",
+      "level": 2,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "difficult → ___",
+      "options": ["more difficult", "difficulter"],
+      "answer": 0,
+      "hint": "Поплескай склади. Якщо їх три й більше — закінчення не додаємо.",
+      "explain": "dif-fi-cult — три склади: more difficult."
+    },
+    {
+      "id": "m-beautiful",
+      "level": 2,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "beautiful → ___",
+      "options": ["more beautiful", "beautifuller"],
+      "answer": 0,
+      "hint": "Поплескай склади. Якщо їх три й більше — закінчення не додаємо.",
+      "explain": "beau-ti-ful — три склади: more beautiful."
+    },
+    {
+      "id": "m-interesting",
+      "level": 2,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "interesting → ___",
+      "options": ["more interesting", "interestinger"],
+      "answer": 0,
+      "hint": "Поплескай склади. Якщо їх три й більше — закінчення не додаємо.",
+      "explain": "in-te-res-ting — довге слово: more interesting."
+    },
+    {
+      "id": "m-small",
+      "level": 2,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "small → ___",
+      "options": ["smaller", "more small"],
+      "answer": 0,
+      "hint": "Поплескай склади. Скільки їх у слові small?",
+      "explain": "small — один склад, тож more не треба: smaller."
+    },
+    {
+      "id": "m-funny",
+      "level": 2,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "funny → ___",
+      "options": ["funnier", "more funny"],
+      "answer": 0,
+      "hint": "Слово на y. Згадай happy → happier.",
+      "explain": "fun-ny — два склади, але на y: y → i + er: funnier. More тут не треба."
+    },
+    {
+      "id": "m-twice",
+      "level": 2,
+      "type": "choice",
+      "q": "Обери правильне слово",
+      "text": "exciting → ___",
+      "options": ["more exciting", "excitinger"],
+      "answer": 0,
+      "hint": "Довге слово отримує або more, або -er — не обидва одразу.",
+      "explain": "ex-ci-ting — довге слово: more exciting."
+    },
+    {
+      "id": "s-elephant",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "An elephant is ___ than a mouse.",
+      "options": ["bigger", "biger", "more big"],
+      "answer": 0,
+      "hint": "Як big → bigger у правилі: подвоюємо останню літеру?",
+      "explain": "Порівнюємо двох (than — ніж): big → bigger."
+    },
+    {
+      "id": "s-car",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "A car is ___ than a bike.",
+      "options": ["more expensive", "expensiver", "the most expensive"],
+      "answer": 0,
+      "hint": "expensive — довге слово. А than означає, що порівнюємо двох.",
+      "explain": "Порівнюємо двох, слово довге: more expensive."
+    },
+    {
+      "id": "s-dad",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "My dad is ___ than me.",
+      "options": ["taller", "more tall", "tallier"],
+      "answer": 0,
+      "hint": "tall — коротке слово, у кінці дві однакові приголосні.",
+      "explain": "tall → taller: просто + er."
+    },
+    {
+      "id": "s-today",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "Today is ___ than yesterday.",
+      "options": ["hotter", "hoter", "more hot"],
+      "answer": 0,
+      "hint": "hot закінчується на o-t, як big. Що робимо з останньою літерою?",
+      "explain": "hot → hotter: подвоюємо t."
+    },
+    {
+      "id": "s-bag",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "This bag is ___ than that bag.",
+      "options": ["heavier", "heavyer", "more heavy"],
+      "answer": 0,
+      "hint": "heavy закінчується на y.",
+      "explain": "heavy → heavier: y → i + er."
+    },
+    {
+      "id": "s-chess",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "Chess is ___ than golf.",
+      "options": ["more exciting", "excitinger", "the most exciting"],
+      "answer": 0,
+      "hint": "exciting — довге слово.",
+      "explain": "Порівнюємо двох, слово довге: more exciting."
+    },
+    {
+      "id": "s-cheetah",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "A cheetah is ___ than a dog.",
+      "options": ["faster", "more fast", "fastter"],
+      "answer": 0,
+      "hint": "fast — коротке слово, у кінці дві приголосні.",
+      "explain": "fast → faster: просто + er."
+    },
+    {
+      "id": "s-math",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "Math is ___ than art.",
+      "options": ["more difficult", "difficulter", "the most difficult"],
+      "answer": 0,
+      "hint": "difficult — довге слово.",
+      "explain": "Порівнюємо двох, слово довге: more difficult."
+    },
+    {
+      "id": "s-cat",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "My cat is ___ than your cat.",
+      "options": ["nicer", "niceer", "more nice"],
+      "answer": 0,
+      "hint": "nice вже закінчується на e.",
+      "explain": "nice → nicer: додаємо лише r."
+    },
+    {
+      "id": "s-test",
+      "level": 3,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "This test is ___ than the last one.",
+      "options": ["easier", "easyer", "more easy"],
+      "answer": 0,
+      "hint": "easy закінчується на y.",
+      "explain": "easy → easier: y → i + er."
+    },
+    {
+      "id": "b-elephant",
+      "level": 3,
+      "type": "build",
+      "prompt": "Слон більший за мишу.",
+      "answer": "An elephant is bigger than a mouse",
+      "extra": ["more", "the"],
+      "hint": "«за мишу» англійською — than a mouse. Спершу хто? → is → який?"
+    },
+    {
+      "id": "b-car",
+      "level": 3,
+      "type": "build",
+      "prompt": "Машина дорожча за велосипед.",
+      "answer": "A car is more expensive than a bike",
+      "extra": ["the"],
+      "hint": "Довге слово: перед ним more. Потім than — «ніж, за»."
+    },
+    {
+      "id": "b-dad",
+      "level": 3,
+      "type": "build",
+      "prompt": "Мій тато вищий за мене.",
+      "answer": "My dad is taller than me",
+      "extra": ["more"],
+      "hint": "Коротке слово отримує -er, а «за мене» — than me."
+    },
+    {
+      "id": "b-today",
+      "level": 3,
+      "type": "build",
+      "prompt": "Сьогодні спекотніше, ніж учора.",
+      "answer": "Today is hotter than yesterday",
+      "extra": ["more"],
+      "hint": "Today is … than yesterday. Яка форма слова hot?"
+    },
+    {
+      "id": "b-chess",
+      "level": 3,
+      "type": "build",
+      "prompt": "Шахи цікавіші за гольф.",
+      "answer": "Chess is more exciting than golf",
+      "extra": ["the"],
+      "hint": "Довге слово exciting: перед ним more, після нього than."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "eng/unit3-desert2-sentences",
+  "subject": "eng",
+  "title": "Unit 3.1: слова в реченнях",
+  "set": "Unit 3",
+  "levels": ["Знайди слово", "Встав слово"],
+  "exercises": [
+    {
+      "id": "gap-different",
+      "level": 2,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "Deserts can look very ___.",
+      "options": ["different", "land", "bark", "plant"],
+      "answer": 0,
+      "hint": "Пустелі зовсім не схожі одна на одну. Які вони?"
+    },
+    {
+      "id": "gap-sandy",
+      "level": 2,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "Some deserts are ___; other deserts are rocky.",
+      "options": ["sandy", "bark", "plant", "Earth"],
+      "answer": 0,
+      "hint": "Яке слово відповідає на питання «які?»"
+    },
+    {
+      "id": "gap-rocky",
+      "level": 2,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "Some deserts are sandy; other deserts are ___.",
+      "options": ["rocky", "bark", "land", "plant"],
+      "answer": 0,
+      "hint": "Одні пустелі з піску, інші — з каміння."
+    },
+    {
+      "id": "gap-icy",
+      "level": 2,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "The largest desert in the world, Antarctica, is covered with ice. It is an ___ desert.",
+      "options": ["icy", "sandy", "rocky", "empty"],
+      "answer": 0,
+      "hint": "ice — лід. Чим вкрита Антарктида?"
+    },
+    {
+      "id": "gap-dry",
+      "level": 2,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "All deserts are ___. They get very little rain or snow.",
+      "options": ["dry", "icy", "bark", "plant"],
+      "answer": 0,
+      "hint": "little rain — мало дощу. Які тоді пустелі?"
+    },
+    {
+      "id": "gap-empty",
+      "level": 2,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "Some people think of deserts as ___ and dead.",
+      "options": ["empty", "bark", "land", "Earth"],
+      "answer": 0,
+      "hint": "dead — мертві. Що ще думають про пустелі?"
+    },
+    {
+      "id": "gap-plants",
+      "level": 2,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "___ and animals can be found in every desert.",
+      "options": ["Plants", "Bark", "Earth", "Dry"],
+      "answer": 0,
+      "hint": "animals — тварини. А хто ще живе в пустелі?"
+    },
+    {
+      "id": "gap-store",
+      "level": 2,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "Many plants have special ways to ___ water.",
+      "options": ["store", "plant", "desert", "dry"],
+      "answer": 0,
+      "hint": "Що рослини роблять з водою, щоб вижити?"
+    },
+    {
+      "id": "gap-bark",
+      "level": 2,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "The saxaul stores water in its ___.",
+      "options": ["bark", "land", "desert", "Earth"],
+      "answer": 0,
+      "hint": "Саксаул — рослина. У якій її частині вода?"
+    },
+    {
+      "id": "gap-land",
+      "level": 2,
+      "type": "choice",
+      "q": "Встав пропущене слово",
+      "text": "A third of the Earth's ___ is desert.",
+      "options": ["land", "bark", "plant", "dry"],
+      "answer": 0,
+      "hint": "Мова про суходіл планети, а не про саму планету."
+    },
+    {
+      "id": "find-sandy-rocky",
+      "level": 1,
+      "type": "pick",
+      "q": "Знайди два слова: «піщані» і «кам'янисті»",
+      "text": "Some deserts are sandy; other deserts are rocky.",
+      "answer": ["sandy", "rocky"],
+      "hint": "sand — пісок, rock — камінь."
+    },
+    {
+      "id": "find-different",
+      "level": 1,
+      "type": "pick",
+      "q": "Знайди слово «різні»",
+      "text": "Deserts can look very different.",
+      "answer": ["different"],
+      "hint": "Шукай найдовше слово в реченні."
+    },
+    {
+      "id": "find-dry",
+      "level": 1,
+      "type": "pick",
+      "q": "Знайди слово «сухі»",
+      "text": "All deserts are dry.",
+      "answer": ["dry"],
+      "hint": "Яке слово відповідає на питання «які?»"
+    },
+    {
+      "id": "find-empty",
+      "level": 1,
+      "type": "pick",
+      "q": "Знайди слово «порожні»",
+      "text": "Some people think of deserts as empty and dead.",
+      "answer": ["empty"],
+      "hint": "Поруч стоїть слово dead — мертві."
+    },
+    {
+      "id": "find-plants",
+      "level": 1,
+      "type": "pick",
+      "q": "Знайди слово «рослини»",
+      "text": "Plants and animals live in every desert.",
+      "answer": ["Plants"],
+      "hint": "animals — тварини. Шукай слово поруч із ним."
+    },
+    {
+      "id": "find-store-bark",
+      "level": 1,
+      "type": "pick",
+      "q": "Знайди два слова: «зберігає» і «кора»",
+      "text": "The saxaul stores water in its bark.",
+      "answer": ["stores", "bark"],
+      "hint": "water — вода. Що робить саксаул з водою і де?"
+    },
+    {
+      "id": "find-earth-land",
+      "level": 1,
+      "type": "pick",
+      "q": "Знайди два слова: «Земля» (планета) і «суходіл»",
+      "text": "A third of the land on Earth is desert.",
+      "answer": ["Earth", "land"],
+      "hint": "Назва планети пишеться з великої літери."
+    }
+  ]
+}

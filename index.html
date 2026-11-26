@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <!-- Тут CSS-змінна неможлива: значення має збігатися з --blue-600 (--primary) у src/styles.css, це перевіряє designTokens.test.ts. -->
+    <meta name="theme-color" content="#2F5BEA" />
+    <link rel="icon" type="image/svg+xml" href="./icon.svg" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Шрифт не блокує перший показ: підключається після завантаження, до того працює system-ui. -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap"
+      media="print"
+      onload="this.media = 'all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap"
+      />
+    </noscript>
+    <!-- Скелетон до завантаження JS: React замінить вміст #root при першому рендері.
+         styles.css ще не підвантажений, тому токени оголошені тут із тими самими значеннями;
+         src/bootSkeleton.test.ts перевіряє, що вони збігаються з :root у styles.css. -->
+    <style>
+      :root {
+        --white: #ffffff;
+        --gray-50: #f4f6fb;
+        --gray-200: #e3e7f1;
+        --surface: var(--gray-50);
+        --surface-raised: var(--white);
+        --border: var(--gray-200);
+        --space-4: 16px;
+        --space-5: 20px;
+        --radius-xl: 24px;
+        --gap: var(--space-4);
+        --pad: var(--space-5);
+        --radius: var(--radius-xl);
+      }
+      body {
+        margin: 0;
+        background: var(--surface);
+      }
+      .boot {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: var(--gap);
+        padding: var(--pad);
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+      .boot i {
+        display: block;
+        height: 120px;
+        border-radius: var(--radius);
+        background: var(--surface-raised);
+        border: 1px solid var(--border);
+        animation: boot 1.2s ease-in-out infinite alternate;
+      }
+      @keyframes boot {
+        to {
+          opacity: 0.45;
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .boot i {
+          animation: none;
+        }
+      }
+    </style>
+    <title>Тренажер</title>
+    <script type="module" crossorigin src="/learn/assets/index-lJGXwSdz.js"></script>
+    <link rel="stylesheet" crossorigin href="/learn/assets/index-qbIiq0wm.css">
+  <link rel="manifest" href="/learn/manifest.webmanifest"></head>
+  <body>
+    <div id="root">
+      <div class="boot" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+    </div>
+  </body>
+</html>

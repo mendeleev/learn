@@ -1,0 +1,35 @@
+{
+  "id": "eng/unit3-desert3-text",
+  "subject": "eng",
+  "title": "Unit 3.1: розумію текст",
+  "set": "Unit 3",
+  "exercises": [
+    {
+      "id": "tf-saxaul",
+      "type": "choice",
+      "q": "Де саксаул зберігає воду?",
+      "text": "The saxaul stores water in its bark.",
+      "options": ["у корі", "у листі", "у землі"],
+      "answer": 0,
+      "hint": "stores water in its ... — знайди останнє слово речення."
+    },
+    {
+      "id": "tf-third",
+      "type": "choice",
+      "q": "Яка частина суходолу Землі — пустеля?",
+      "text": "A third of the Earth's land is desert.",
+      "options": ["третина", "половина", "уся"],
+      "answer": 0,
+      "hint": "third — третій. А a third — це скільки?"
+    },
+    {
+      "id": "tf-larger",
+      "type": "choice",
+      "q": "Пустель стає більше чи менше?",
+      "text": "Every year, deserts grow larger.",
+      "options": ["більше", "менше"],
+      "answer": 0,
+      "hint": "large — великий, larger — ще більший."
+    }
+  ]
+}
